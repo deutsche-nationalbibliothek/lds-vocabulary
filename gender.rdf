@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rdf:RDF xmlns="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:vann="http://purl.org/vocab/vann/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:adms="http://www.w3.org/ns/adms#">
+    <owl:Ontology rdf:about="https://d-nb.info/standards/vocab/gnd/gender#">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+		<owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#" />
+        <dc:title xml:lang="en">GND Gender</dc:title>
+        <dc:title xml:lang="de">GND-Geschlecht</dc:title>
+		<dc:description xml:lang="en">GND Gender is a value vocabulary (skos:ConceptScheme) listing 
+		the possible gender values used in the RDF encoding of the information in the Integrated
+		Authority File (Gemeinsame Normdatei, GND).</dc:description>
+		<dc:description xml:lang="de">GND-Geschlecht ist ein RDF value vocabulary (skos:ConceptScheme),
+		das die möglichen Werte auflistet, die Geschlechtsangaben in der RDF-Ausgabe der Gemeinsamen
+		Normdatei (GND) haben können.</dc:description>
+
+        <!-- For Linked Open Vocabularies -->
+        <vann:preferredNamespaceUri>https://d-nb.info/standards/vocab/gnd/gender#</vann:preferredNamespaceUri>
+        <vann:preferredNamespacePrefix>gnd-gender</vann:preferredNamespacePrefix>
+        
+        <!-- Versioning information -->
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-30</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-06-13T10:30:00+02:00</dct:modified>
+        <dct:available rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-10-15</dct:available>
+        <owl:versionInfo>1.2</owl:versionInfo>
+            <adms:versionNotes xml:lang="en">
+Changes from 2017-09-12 to 2019-10-15
+
+All d-nb.info-URIs changed from http to https
+		</adms:versionNotes>
+        <owl:versionIRI rdf:resource="https://d-nb.info/standards/vocab/gnd/gender_20191015" />
+		<owl:priorVersion rdf:resource="http://d-nb.info/standards/vocab/gnd/gender2017-09-12" />
+
+        <!-- Rights information -->
+        <dct:rights>Copyright 2012-2019 Deutsche Nationalbibliothek</dct:rights>
+        <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<dct:creator rdf:resource="https://d-nb.info/gnd/1037982762" />
+        <dct:publisher rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-101" />
+    </owl:Ontology>
+
+	<!-- Stubs for creator  -->
+	<foaf:Person rdf:about="https://d-nb.info/gnd/1037982762">
+		<rdfs:label>Alexander Haffner</rdfs:label>
+	</foaf:Person>
+    
+    <owl:Class rdf:about="https://d-nb.info/standards/vocab/gnd/gender#GenderValue">
+        <rdfs:label xml:lang="en">Gender Value</rdfs:label>
+        <rdfs:label xml:lang="de">Werte für Geschlechtsangabe</rdfs:label>
+        <rdfs:comment xml:lang="en">The possible members of this class is restricted to those skos:Concepts
+            that are in the Concept Scheme &lt;https://d-nb.info/standards/vocab/gnd/gender#&gt;.</rdfs:comment>
+        <rdfs:comment xml:lang="de">Die möglichen Instanzen dieser Klasse sind beschränkt auf diejenigen
+            skos:Concepts, die zum Concept Scheme &lt;https://d-nb.info/standards/vocab/gnd/gender#&gt; gehören.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+                <owl:hasValue rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+    <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/gender#male">
+        <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#"/>
+        <skos:exactMatch rdf:resource="http://rdvocab.info/termList/gender/1002"/>
+        <skos:prefLabel xml:lang="de">Männlich</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Male</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-M" />
+    </skos:Concept>
+    <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/gender#female">
+        <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#"/>
+        <skos:exactMatch rdf:resource="http://rdvocab.info/termList/gender/1001"/>
+        <skos:prefLabel xml:lang="de">Weiblich</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Female</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-F" />
+    </skos:Concept>
+    <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/gender#notKnown">
+        <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/gender#"/>
+        <skos:exactMatch rdf:resource="http://rdvocab.info/termList/gender/1003"/>
+        <skos:prefLabel xml:lang="de">Unbekannt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Not known</skos:prefLabel>
+		<skos:exactMatch rdf:resource="http://purl.org/linked-data/sdmx/2009/code#sex-U" />
+    </skos:Concept>
+    
+</rdf:RDF>
