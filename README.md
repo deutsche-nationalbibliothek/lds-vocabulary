@@ -1,13 +1,13 @@
 # Linked Data Vokabulare und Ontologien
 
-Die Deutsche Nationalbibliothek stellt mit dem Linked-Data-Service im Standard Resource Description Framework (RDF) alle nationalbibliografischen Metadaten und alle Normdaten der Gemeinsamen Normdatei (GND) kostenfrei zur Verfügung.
+Die Deutsche Nationalbibliothek stellt mit dem [Linked-Data-Service](https://www.dnb.de/lds) im Standard Resource Description Framework (RDF) alle nationalbibliografischen Metadaten und alle Normdaten der [Gemeinsamen Normdatei](https://gnd.network/) (GND) kostenfrei zur Verfügung.
 
 Für die Beschreibung der Daten werden sowohl Vokabulare nachgenutzt, als auch eigene erstellt und gepflegt. Es wird unterschieden zwischen strukturellen RDF-Vokabularen, die Klassen und Relationen zwischen Entitäten definieren (RDF-Element-Sets) und Vokabularen, die Entitäten definieren, wie zum Beispiel Klassifikationen oder Listen von Ländercodes (RDF-Value Vocabularies).
 
 ## RDF-Element-Sets
 
 ### GND-Ontologie
-Die GND-Ontologie (GNDO) definiert Klassen und Relationen, mit denen wir die Daten der Gemeinsamen Normdatei (GND) im Format RDF beschreiben. Für GND-Ontologie existiert ein eigenes Repository.
+Die GND-Ontologie (GNDO) definiert Klassen und Relationen, mit denen wir die Daten der Gemeinsamen Normdatei (GND) im Format RDF beschreiben. Für die GND-Ontologie existiert ein eigenes Repository.
 
 ### DNB Metadata Terms
 Die DNB Metadata Terms (DNBT) definiert Klassen und Relationen, die wir für die Beschreibung der Titeldaten verwenden, falls wir keine passenden Klassen oder Relationen in anderen Vokabularen vorgefunden haben.
@@ -33,6 +33,9 @@ Das Vokabular „GND-Koordinatentyp“ (GND Type of Coordinates) bildet die mög
 ### GND-Katalogisierungslevel
 Das Vokabular „GND-Katalogisierungslevel“ (GND Description Level) bildet die möglichen Werte für das Katalogisierungslevel ab, das den Stand der redaktionellen Bearbeitung eines Datensatzes anzeigt. Sie werden in RDF als skos:Concepts modelliert.
 
+# Kommunikation
+Über Issues und Pull Requests können gerne Fehler oder Verbesserungsvorschläge eingebracht werden. Weitere Fragen oder Anregungen können über die [Linked-Data-Service Mailingliste](http://lists.dnb.de/mailman/listinfo/lds) mitgeteilt werden. Oder per Mail an [metadatendienste@dnb.de](mailto:metadatendienste@dnb.de).
+
 # Lizenz
 
-Die Vokabulare sind lizensiert unter [CC0](LICENSE)
+Die Vokabulare sind lizensiert unter [CC0](LICENSE).
