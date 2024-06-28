@@ -1806,7 +1806,7 @@ For inverse relationsships, the subject and object role follow the naming of the
     
     <owl:Class rdf:about="#HasFosterSibling">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdfs:label xml:lang="de">has Pflegegeschwister</rdfs:label>
+	<rdfs:label xml:lang="de">hat Pflegegeschwister</rdfs:label>
         <rdfs:label xml:lang="en">has foster sibling</rdfs:label>
 		<rdfs:label xml:lang="es">tiene hermano(a) de crianza</rdfs:label>
 		<rdfs:label xml:lang="it">ha fratello o sorella di latte</rdfs:label>
