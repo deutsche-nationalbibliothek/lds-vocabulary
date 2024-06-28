@@ -1214,7 +1214,7 @@ For inverse relationsships, the subject and object role follow the naming of the
     <owl:ObjectProperty rdf:about="#hasStudent">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
 	<rdfs:label xml:lang="de">hat Sch&#252;ler</rdfs:label>
-        <rdfs:label xml:lang="en">has Student</rdfs:label>
+        <rdfs:label xml:lang="en">has student</rdfs:label>
 		<rdfs:label xml:lang="es">tiene estudiante</rdfs:label>
 		<rdfs:label xml:lang="it">ha scolaro(a)</rdfs:label>
         <rdfs:comment xml:lang="en">A person (subject) trains a person (object).</rdfs:comment>
@@ -2162,7 +2162,7 @@ For inverse relationsships, the subject and object role follow the naming of the
     <owl:Class rdf:about="#HasStudentTeacher">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	<rdfs:label xml:lang="de">hat Sch&#252;ler / Lehrer</rdfs:label>
-        <rdfs:label xml:lang="en">has Student / teacher</rdfs:label>
+        <rdfs:label xml:lang="en">has student / teacher</rdfs:label>
 		<rdfs:label xml:lang="es">tiene estudiante / maestro(a)</rdfs:label>
 		<rdfs:label xml:lang="it">ha scolaro(a) / insegnante</rdfs:label>
         <rdfs:comment xml:lang="en">This is the n-ary concept for the properties hasStudent / hasTeacher</rdfs:comment>
