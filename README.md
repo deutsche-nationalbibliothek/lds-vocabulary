@@ -7,7 +7,7 @@ Für die Beschreibung der Daten werden sowohl Vokabulare nachgenutzt, als auch e
 ## RDF-Element-Sets
 
 ### GND-Ontologie
-Die GND-Ontologie (GNDO) definiert Klassen und Relationen, mit denen wir die Daten der Gemeinsamen Normdatei (GND) im Format RDF beschreiben. Für die GND-Ontologie existiert ein eigenes Repository.
+Die GND-Ontologie (GNDO) definiert Klassen und Relationen, mit denen wir die Daten der Gemeinsamen Normdatei (GND) im Format RDF beschreiben. Für die GND-Ontologie existiert ein [eigenes Repository](https://github.com/deutsche-nationalbibliothek/gnd-ontology).
 
 ### DNB Metadata Terms
 Die DNB Metadata Terms (DNBT) definiert Klassen und Relationen, die wir für die Beschreibung der Titeldaten verwenden, falls wir keine passenden Klassen oder Relationen in anderen Vokabularen vorgefunden haben.
