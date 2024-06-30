@@ -35,9 +35,9 @@ Vocabulary elements (properties and concepts) are conceived gender neutral.
 The identifiers of properties are preferably hasProperty and invers isPropertyOf or hasInverseProperty. 
 Domains and ranges of properties are mostly not fixed.
 Instance relations (object properties) are mostly specified bidirectionally.
-Implicit, deducable instance relations are explicitly formulated.
+Implicit, deducible instance relations are explicitly formulated.
 Properties partly allow imperfect information (e.g. fragmentary dates, names instead of object URIs).
-Correlations between instance relations, like inversity, transitivity, symmetry, hierarchie, are marked.
+Correlations between instance relations, like inversity, transitivity, symmetry, hierarchy, are marked.
 Meta statements are exhibited by modelling person relations as n-ary concepts as well as as properties, corresponding n-ary concepts and properties are correlated.
 </rdfs:comment>
 <dc:description xml:lang="en">
@@ -45,7 +45,7 @@ The ontology of agent relationships (AgRelOn) defines relations of persons to ot
 and to organisations, since agents (persons, organisations) and their interconnections are important 
 in the cultural heritage domain. AgRelOn is developed to foster uniform cataloging as well as 
 semantic searchability of and via relations between agents. Therefore, a general set of nearly 
-70 relationhip types is provided. AgRelOn discerns private acquaintanceship, group affiliation, 
+70 relationship types is provided. AgRelOn discerns private acquaintanceship, group affiliation, 
 correspondence, occupational contact, kinship, spiritual contact, and vital/lethal contact. 
 For these kinds of relations more specific sub-relations are formulated.
 Meta statements are supported to obtain transparency of reliability and provenance as well as validity 
