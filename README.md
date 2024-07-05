@@ -34,8 +34,8 @@ Das Vokabular „GND-Koordinatentyp“ (GND Type of Coordinates) bildet die mög
 Das Vokabular „GND-Katalogisierungslevel“ (GND Description Level) bildet die möglichen Werte für das Katalogisierungslevel ab, das den Stand der redaktionellen Bearbeitung eines Datensatzes anzeigt. Sie werden in RDF als skos:Concepts modelliert.
 
 # Kommunikation
-Über Issues und Pull Requests können gerne Fehler oder Verbesserungsvorschläge eingebracht werden. Weitere Fragen oder Anregungen können über die [Linked-Data-Service Mailingliste](http://lists.dnb.de/mailman/listinfo/lds) mitgeteilt werden. Oder per Mail an [metadatendienste@dnb.de](mailto:metadatendienste@dnb.de).
+Über Issues und Pull Requests können gerne Fehler oder Verbesserungsvorschläge eingebracht werden. Weitere Fragen oder Anregungen können über die [Linked-Data-Service Mailingliste](mailto:lds@lists.dnb.de) mitgeteilt werden. Oder per Mail an [metadatendienste@dnb.de](mailto:metadatendienste@dnb.de).
 
 # Lizenz
 
-Die Vokabulare sind lizensiert unter [CC0](LICENSE).
+Die Vokabulare sind lizensiert unter [CC0 1.0](LICENSE).
