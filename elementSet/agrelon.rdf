@@ -74,7 +74,7 @@ bestimmten zeitlichen und räumlichen kulturellen Raum.
 		
 		<!-- Versioning information -->
 		<dct:issued rdf:datatype="&xsd;date">2011-06-30</dct:issued>
-		<dct:modified rdf:datatype="&xsd;dateTime">2019-06-13T10:24:00+02:00</dct:modified>
+		<dct:modified rdf:datatype="&xsd;dateTime">2024-08-05T16:00:00+02:00</dct:modified>
 		<dct:available rdf:datatype="&xsd;date">2019-10-15</dct:available>
 		<owl:versionInfo>1.5.1</owl:versionInfo>
 		<adms:versionNotes xml:lang="en">
@@ -120,7 +120,7 @@ Changes from 2013-06-30
 		<owl:priorVersion rdf:resource="http://d-nb.info/standards/elementset/agrelon2018-10-16" />
 
 		<!-- Rights information -->
-		<dct:rights>Copyright 2013-2022 Deutsche Nationalbibliothek</dct:rights>
+		<dct:rights>Copyright 2013-2024 Deutsche Nationalbibliothek</dct:rights>
 		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dct:creator rdf:resource="#aenneLoehden" />
