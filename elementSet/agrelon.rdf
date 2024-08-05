@@ -76,13 +76,17 @@ bestimmten zeitlichen und räumlichen kulturellen Raum.
 		<dct:issued rdf:datatype="&xsd;date">2011-06-30</dct:issued>
 		<dct:modified rdf:datatype="&xsd;dateTime">2019-06-13T10:24:00+02:00</dct:modified>
 		<dct:available rdf:datatype="&xsd;date">2019-10-15</dct:available>
-		<owl:versionInfo>1.5</owl:versionInfo>
+		<owl:versionInfo>1.5.1</owl:versionInfo>
 		<adms:versionNotes xml:lang="en">
-Changes from 2019-06-18 to 2019-10-15
+Changes from 2024-06-01 to 2024-08-05
+
+Fix Typos
+
+*Changes from 2019-06-18 to 2019-10-15
 
 All d-nb.info-URIs changed from http to https
 			
-*Changes from 2018-10-16
+Changes from 2018-10-16
 	Updated labels in agrelon:hasGrandParent, agrelon:hasStepParent,
 				agrelon:HasAdoptiveChildParent, agrelon:HasChildParentInlaw, 
 				agrelon:hasFosterParent, agrelon:HasStepChildParent,
