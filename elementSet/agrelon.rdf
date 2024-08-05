@@ -1469,7 +1469,7 @@ For inverse relationsships, the subject and object role follow the naming of the
 
     <owl:ObjectProperty rdf:about="#relatedAgent">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <rdfs:label xml:lang="de">verkn&#252;pfter Agens</rdfs:label>
+        <rdfs:label xml:lang="de">verkn&#252;pfter Agent</rdfs:label>
         <rdfs:label xml:lang="en">related Agent</rdfs:label>
 		<rdfs:label xml:lang="es">agente relacionado</rdfs:label>
 		<rdfs:label xml:lang="it">agente connesso</rdfs:label>
@@ -2225,7 +2225,7 @@ For inverse relationsships, the subject and object role follow the naming of the
 
     <owl:Class rdf:about="#RelatedAgent">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdfs:label xml:lang="de">verkn&#252;pfter Agens</rdfs:label>
+	<rdfs:label xml:lang="de">verkn&#252;pfter Agent</rdfs:label>
         <rdfs:label xml:lang="en">related Agent</rdfs:label>
 		<rdfs:label xml:lang="es">agente relacionado</rdfs:label>
 		<rdfs:label xml:lang="it">agente connesso</rdfs:label>
