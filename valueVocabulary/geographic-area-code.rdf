@@ -23,19 +23,23 @@
         
         <!-- Versioning information -->
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-30</dct:issued>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-02-23T14:00:00+02:00</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-05T16:00:00+02:00</dct:modified>
         <dct:available rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-09-28</dct:available>
-        <owl:versionInfo>1.4</owl:versionInfo>
+        <owl:versionInfo>1.4.1</owl:versionInfo>
         <owl:versionIRI rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code_20210928" />
 		<owl:priorVersion rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code_20191015" />
 
         <!-- Rights information -->
-        <dct:rights>Copyright 2012-2022 Deutsche Nationalbibliothek</dct:rights>
+        <dct:rights>Copyright 2012-2024 Deutsche Nationalbibliothek</dct:rights>
         <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dct:creator rdf:resource="#alexanderHaffner" />
         <dct:publisher rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-101" />
 		<adms:versionNotes xml:lang="en">
+Changes from 2021-09-29 to 2024-08-05
+
+Fix geonames.org IRIs
+
 Changes from 2019-10-16 to 2021-09-28
 
 - New Code: XA-QV Kosovo
