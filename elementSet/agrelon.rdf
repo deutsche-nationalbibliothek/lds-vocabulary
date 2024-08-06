@@ -35,9 +35,9 @@ Vocabulary elements (properties and concepts) are conceived gender neutral.
 The identifiers of properties are preferably hasProperty and invers isPropertyOf or hasInverseProperty. 
 Domains and ranges of properties are mostly not fixed.
 Instance relations (object properties) are mostly specified bidirectionally.
-Implicit, deducable instance relations are explicitly formulated.
+Implicit, deducible instance relations are explicitly formulated.
 Properties partly allow imperfect information (e.g. fragmentary dates, names instead of object URIs).
-Correlations between instance relations, like inversity, transitivity, symmetry, hierarchie, are marked.
+Correlations between instance relations, like inversity, transitivity, symmetry, hierarchy, are marked.
 Meta statements are exhibited by modelling person relations as n-ary concepts as well as as properties, corresponding n-ary concepts and properties are correlated.
 </rdfs:comment>
 <dc:description xml:lang="en">
@@ -45,7 +45,7 @@ The ontology of agent relationships (AgRelOn) defines relations of persons to ot
 and to organisations, since agents (persons, organisations) and their interconnections are important 
 in the cultural heritage domain. AgRelOn is developed to foster uniform cataloging as well as 
 semantic searchability of and via relations between agents. Therefore, a general set of nearly 
-70 relationhip types is provided. AgRelOn discerns private acquaintanceship, group affiliation, 
+70 relationship types is provided. AgRelOn discerns private acquaintanceship, group affiliation, 
 correspondence, occupational contact, kinship, spiritual contact, and vital/lethal contact. 
 For these kinds of relations more specific sub-relations are formulated.
 Meta statements are supported to obtain transparency of reliability and provenance as well as validity 
@@ -74,15 +74,19 @@ bestimmten zeitlichen und räumlichen kulturellen Raum.
 		
 		<!-- Versioning information -->
 		<dct:issued rdf:datatype="&xsd;date">2011-06-30</dct:issued>
-		<dct:modified rdf:datatype="&xsd;dateTime">2019-06-13T10:24:00+02:00</dct:modified>
+		<dct:modified rdf:datatype="&xsd;dateTime">2024-08-05T16:00:00+02:00</dct:modified>
 		<dct:available rdf:datatype="&xsd;date">2019-10-15</dct:available>
-		<owl:versionInfo>1.5</owl:versionInfo>
+		<owl:versionInfo>1.5.1</owl:versionInfo>
 		<adms:versionNotes xml:lang="en">
-Changes from 2019-06-18 to 2019-10-15
+Changes from 2024-06-01 to 2024-08-05
+
+Fix Typos
+
+*Changes from 2019-06-18 to 2019-10-15
 
 All d-nb.info-URIs changed from http to https
 			
-*Changes from 2018-10-16
+Changes from 2018-10-16
 	Updated labels in agrelon:hasGrandParent, agrelon:hasStepParent,
 				agrelon:HasAdoptiveChildParent, agrelon:HasChildParentInlaw, 
 				agrelon:hasFosterParent, agrelon:HasStepChildParent,
@@ -116,7 +120,7 @@ Changes from 2013-06-30
 		<owl:priorVersion rdf:resource="http://d-nb.info/standards/elementset/agrelon2018-10-16" />
 
 		<!-- Rights information -->
-		<dct:rights>Copyright 2013-2022 Deutsche Nationalbibliothek</dct:rights>
+		<dct:rights>Copyright 2013-2024 Deutsche Nationalbibliothek</dct:rights>
 		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dct:creator rdf:resource="#aenneLoehden" />
@@ -1214,7 +1218,7 @@ For inverse relationsships, the subject and object role follow the naming of the
     <owl:ObjectProperty rdf:about="#hasStudent">
 	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
 	<rdfs:label xml:lang="de">hat Sch&#252;ler</rdfs:label>
-        <rdfs:label xml:lang="en">has Student</rdfs:label>
+        <rdfs:label xml:lang="en">has student</rdfs:label>
 		<rdfs:label xml:lang="es">tiene estudiante</rdfs:label>
 		<rdfs:label xml:lang="it">ha scolaro(a)</rdfs:label>
         <rdfs:comment xml:lang="en">A person (subject) trains a person (object).</rdfs:comment>
@@ -1469,7 +1473,7 @@ For inverse relationsships, the subject and object role follow the naming of the
 
     <owl:ObjectProperty rdf:about="#relatedAgent">
         <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
-        <rdfs:label xml:lang="de">verkn&#252;pfter Agens</rdfs:label>
+        <rdfs:label xml:lang="de">verkn&#252;pfter Agent</rdfs:label>
         <rdfs:label xml:lang="en">related Agent</rdfs:label>
 		<rdfs:label xml:lang="es">agente relacionado</rdfs:label>
 		<rdfs:label xml:lang="it">agente connesso</rdfs:label>
@@ -1806,7 +1810,7 @@ For inverse relationsships, the subject and object role follow the naming of the
     
     <owl:Class rdf:about="#HasFosterSibling">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdfs:label xml:lang="de">has Pflegegeschwister</rdfs:label>
+	<rdfs:label xml:lang="de">hat Pflegegeschwister</rdfs:label>
         <rdfs:label xml:lang="en">has foster sibling</rdfs:label>
 		<rdfs:label xml:lang="es">tiene hermano(a) de crianza</rdfs:label>
 		<rdfs:label xml:lang="it">ha fratello o sorella di latte</rdfs:label>
@@ -2162,7 +2166,7 @@ For inverse relationsships, the subject and object role follow the naming of the
     <owl:Class rdf:about="#HasStudentTeacher">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	<rdfs:label xml:lang="de">hat Sch&#252;ler / Lehrer</rdfs:label>
-        <rdfs:label xml:lang="en">has Student / teacher</rdfs:label>
+        <rdfs:label xml:lang="en">has student / teacher</rdfs:label>
 		<rdfs:label xml:lang="es">tiene estudiante / maestro(a)</rdfs:label>
 		<rdfs:label xml:lang="it">ha scolaro(a) / insegnante</rdfs:label>
         <rdfs:comment xml:lang="en">This is the n-ary concept for the properties hasStudent / hasTeacher</rdfs:comment>
@@ -2225,7 +2229,7 @@ For inverse relationsships, the subject and object role follow the naming of the
 
     <owl:Class rdf:about="#RelatedAgent">
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdfs:label xml:lang="de">verkn&#252;pfter Agens</rdfs:label>
+	<rdfs:label xml:lang="de">verkn&#252;pfter Agent</rdfs:label>
         <rdfs:label xml:lang="en">related Agent</rdfs:label>
 		<rdfs:label xml:lang="es">agente relacionado</rdfs:label>
 		<rdfs:label xml:lang="it">agente connesso</rdfs:label>
