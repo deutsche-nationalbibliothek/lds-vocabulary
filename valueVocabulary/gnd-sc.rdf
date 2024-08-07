@@ -10,7 +10,7 @@
 
   <skos:ConceptScheme rdf:about="https://d-nb.info/standards/vocab/gnd/gnd-sc">
     <rdfs:comment xml:lang="en">
-			Changes from 2021-02-09 to 2024-08-06
+	    Changes from 2021-02-09 to 2024-08-06
 			Add skos:notation
 			Add skos:narrower for first three top-levels
 			Remove owl:Ontology as type
@@ -29,7 +29,7 @@
 		fachliche oder Ausschnitte oder Teilausgaben zu bilden.</dc:description>
     <dc:title xml:lang="en">GND Subject Categories</dc:title>
     <dc:title xml:lang="de">GND-Sachgruppen</dc:title>
-    <dct:available rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-08</dct:available>
+    <dct:available rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-07</dct:available>
     <dct:creator rdf:resource="https://d-nb.info/gnd/1037982762"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-30</dct:issued>
     <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
@@ -40,7 +40,7 @@
     <vann:preferredNamespaceUri>https://d-nb.info/standards/vocab/gnd/gnd-sc#</vann:preferredNamespaceUri>
     <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
     <owl:priorVersion rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc_20220208"/>
-    <owl:versionIRI rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc_20240808"/>
+    <owl:versionIRI rdf:resource="https://d-nb.info/standards/vocab/gnd/gnd-sc_20240807"/>
     <owl:versionInfo>1.5.0</owl:versionInfo>
 
     <skos:hasTopConcept>
