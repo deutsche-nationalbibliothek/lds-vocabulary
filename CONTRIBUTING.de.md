@@ -60,7 +60,7 @@ Danke, für die Mitarbeit an den Vokabularen und Ontologien der Deutschen Nation
 :githubContributors
     a foaf:Group ;
     rdfs:label "Github DNB Contributors"@en ;
-    rdfs:seeAlso <https://github.com/deutsche-nationalbibliothek/gnd-ontology/graphs/contributors> .
+    rdfs:seeAlso <https://github.com/deutsche-nationalbibliothek/lds-vocabulary/graphs/contributors> .
 ```
 Für besondere Beiträge werden Beitragende im Einzellfall extra im jeweiligen Vokabular genannt.
 
