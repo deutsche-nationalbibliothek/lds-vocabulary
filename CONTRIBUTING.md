@@ -60,7 +60,7 @@ Thank you for contributing to the vocabularies and ontologies of the German Nati
 :githubContributors
     a foaf:Group ;
     rdfs:label "Github DNB Contributors"@en ;
-    rdfs:seeAlso <https://github.com/deutsche-nationalbibliothek/gnd-ontology/graphs/contributors> .
+    rdfs:seeAlso <https://github.com/deutsche-nationalbibliothek/lds-vocabulary/graphs/contributors> .
 ```
 For special contributions, contributors are named separately in the respective vocabulary.
 
