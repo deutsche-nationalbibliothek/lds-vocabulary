@@ -75,7 +75,7 @@ bestimmten zeitlichen und räumlichen kulturellen Raum.
 		<!-- Versioning information -->
 		<dct:issued rdf:datatype="&xsd;date">2011-06-30</dct:issued>
 		<dct:modified rdf:datatype="&xsd;dateTime">2024-08-05T16:00:00+02:00</dct:modified>
-		<dct:available rdf:datatype="&xsd;date">2019-10-15</dct:available>
+		<dct:available rdf:datatype="&xsd;date">2024-08-07</dct:available>
 		<owl:versionInfo>1.5.1</owl:versionInfo>
 		<adms:versionNotes xml:lang="en">
 Changes from 2024-06-01 to 2024-08-05
@@ -116,8 +116,8 @@ Changes from 2013-06-30
 			minor bugfix to ensure that the correct datatype is used for dates.
 		</adms:versionNotes>
 
-		<owl:versionIRI rdf:resource="https://d-nb.info/standards/elementset/agrelon_20190618" />
-		<owl:priorVersion rdf:resource="http://d-nb.info/standards/elementset/agrelon2018-10-16" />
+		<owl:versionIRI rdf:resource="https://d-nb.info/standards/elementset/agrelon_20240807" />
+		<owl:priorVersion rdf:resource="https://d-nb.info/standards/elementset/agrelon_20190618" />
 
 		<!-- Rights information -->
 		<dct:rights>Copyright 2013-2024 Deutsche Nationalbibliothek</dct:rights>
