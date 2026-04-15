@@ -1,0 +1,1286 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix : <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+<https://d-nb.info/standards/classification/ddc/ddc-sc#> a skos:ConceptScheme ;
+	dct:title """DDC-Sachgruppen der Deutschen Nationalbibliothek (DNB)(inklusive der zur Sachgruppe gehörenden DDC-Klassen; auf Grundlage der 23. Ausgabe der DDC; gliedern seit 2004 die Reihen A, B, C, H und O der Deutschen 
+Nationalbibliografie und den Neuerscheinungsdienst)"""@de ;
+	dct:title """DDC Subject Categories of the German National Library (DNB) (Including individual DDC classes belonging to a subject category; Based on DDC 23; Used since 2004 to structure the Deutsche 
+Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service"""@en ;
+	dct:issued "2026-04-01"^^xsd:date ; # TODO: Bei Veröffentlichung aktualisieren
+       vann:preferredNamespacePrefix "ddc-sc" ;
+       vann:preferredNamespaceUri "https://d-nb.info/standards/classification/ddc/ddc-sc#" ;
+	skos:hasTopConcept :HK000 ,
+		:HK100 ,
+		:HK200 ,
+		:HK300 ,
+		:HK400 ,
+		:HK500 ,
+		:HK600 ,
+		:HK700 ,
+		:HK800 ,
+		:HK900 ;
+       dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ; # TODO: Welche Lizenz können wir vergeben? 
+	dct:publisher <http://ld.zdb-services.de/resource/organisations/DE-101> .
+
+:HK000 a skos:Concept ;
+    skos:notation "000" ;
+	skos:prefLabel "Allgemeines, Informatik, Informationswissenschaft"@de ;
+	skos:prefLabel "Generalities, computers, information"@en ;
+    skos:narrower :SG000 ,
+		:SG004 ,
+		:SG010 ,
+              :SG020 ,
+              :SG030 ,
+              :SG050 ,
+              :SG060 ,
+              :SG070 ,
+              :SG080 ,
+              :SG090 ;
+        skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#>.
+		
+:HK100 a skos:Concept ;
+       skos:notation "100" ;
+       skos:prefLabel "Philosophie und Psychologie"@de ;
+	   skos:prefLabel "Philosophy and psychology"@en ;
+       skos:narrower :SG100 , :SG130 , :SG150 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK200 a skos:Concept ;
+       skos:notation "200" ;
+       skos:prefLabel "Religion"@de ;
+	   skos:prefLabel "Religion"@en ;
+       skos:narrower :SG200 , :SG220 , :SG230 , :SG290 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK300 a skos:Concept ;
+       skos:notation "300" ;
+       skos:prefLabel "Sozialwissenschaften"@de ;
+	   skos:prefLabel "Social sciences"@en ;
+       skos:narrower :SG300 ,
+                 :SG310 ,
+                 :SG320 ,
+                 :SG330 ,
+				 :SG333_7 ,
+                 :SG340 ,
+                 :SG350 ,
+                 :SG355 ,
+                 :SG360 ,
+                 :SG370 ,
+                 :SG380 ,
+                 :SG390 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK400 a skos:Concept ;
+       skos:notation "400" ;
+       skos:prefLabel "Sprache"@de ;
+	   skos:prefLabel "Language"@en ;
+       skos:narrower :SG400 ,
+                 :SG420 ,
+                 :SG430 ,
+                 :SG439 ,
+                 :SG440 ,
+                 :SG450 ,
+                 :SG460 ,
+                 :SG470 ,
+                 :SG480 ,
+                 :SG490 ,
+				 :SG491_8 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK500 a skos:Concept ;
+       skos:notation "500" ;
+       skos:prefLabel "Naturwissenschaften und Mathematik"@de ;
+	   skos:prefLabel "Natural sciences and mathematics"@en ;
+       skos:narrower :SG500 ,
+                 :SG510 ,
+                 :SG520 ,
+                 :SG530 ,
+                 :SG540 ,
+                 :SG550 ,
+                 :SG560 ,
+				 :SG570 ,
+                 :SG580 ,
+                 :SG590 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK600 a skos:Concept ;
+       skos:notation "600" ;
+       skos:prefLabel "Technik, Medizin, angewandte Wissenschaften"@de ;
+	   skos:prefLabel "Technology, medicine, applied sciences"@en ;
+       skos:narrower :SG600 ,
+                 :SG610 ,
+                 :SG620 ,
+				 :SG621_3 ,
+				 :SG624 ,
+                 :SG630 ,
+                 :SG640 ,
+                 :SG650 ,
+                 :SG660 ,
+                 :SG670 ,
+                 :SG690 ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK700 a skos:Concept ;
+       skos:notation "700" ;
+       skos:prefLabel "Künste und Unterhaltung"@de ;
+	   skos:prefLabel "Arts and recreation"@en ;
+       skos:narrower :SG700 ,
+                 :SG710 ,
+                 :SG720 ,
+                 :SG730 ,
+                 :SG740 ,
+                 :SG741_5 ,
+                 :SG750 ,
+                 :SG760 ,
+                 :SG770 ,
+                 :SG780 ,
+                 :SG790 ,
+                 :SG791 ,
+                 :SG792 ,
+                 :SG793 ,
+                 :SG796 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK800 a skos:Concept ;
+       skos:notation "800" ;
+       skos:prefLabel "Literatur"@de ;
+	   skos:prefLabel "Literature"@en ;
+       skos:narrower :SG800 ,
+                 :SG810 ,
+                 :SG820 ,
+                 :SG830 ,
+                 :SG839 ,
+                 :SG840 ,
+                 :SG850 ,
+                 :SG860 ,
+                 :SG870 ,
+                 :SG880 ,
+                 :SG890 ,
+				 :SG891.8 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:HK900 a skos:Concept ;
+       skos:notation "900" ;
+       skos:prefLabel "Geschichte und Geografie"@de ;
+	   skos:prefLabel "History and geography"@en ;
+       skos:narrower :SG900 ,
+                 :SG910 ,
+                 :SG914_3 ,
+                 :SG920 ,
+                 :SG930 ,
+                 :SG940 ,
+                 :SG943 ,
+		         :SG950 ,
+                 :SG960 ,
+                 :SG970 ,
+                 :SG980 ,
+                 :SG990 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG000 a skos:Concept ;
+       skos:notation "000" ;
+       skos:note "Enthält die DDC-Klassen 000-003"@de ;
+       skos:note "Includes DDC classes 000-003"@en ;
+       skos:prefLabel "Allgemeines, Wissenschaft"@de ;
+	   skos:prefLabel "Generalities, science"@en ;
+       skos:narrowMatch <http://dewey.info/class/000/e23/> ,
+                    <http://dewey.info/class/001/e23/> ,
+                    <http://dewey.info/class/002/e23/> ,
+                    <http://dewey.info/class/003/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG004 a skos:Concept ;
+       skos:notation "004" ;
+       skos:note "Enthält die DDC-Klassen 004-006"@de ;
+       skos:note "Includes DDC classes 004-006"@en ;
+       skos:prefLabel "Informatik"@de ;
+	   skos:prefLabel "Computer science"@en;
+	 skos:narrowMatch <http://dewey.info/class/004/e23/> ,
+		<http://dewey.info/class/005/e23/> ,
+		<http://dewey.info/class/006/e23/> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+    skos:broader :HK000 .
+				  
+:SG010 a skos:Concept ;
+       skos:notation "010" ;
+	   skos:note "Enthält die DDC-Klassen 010"@de ;
+       skos:note "Includes DDC classes 010"@en ;
+       skos:prefLabel "Bibliografien"@de ;
+	   skos:prefLabel "Bibliography"@en ;
+       skos:narrowMatch <http://dewey.info/class/010/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG020 a skos:Concept ;
+       skos:notation "020" ;
+	   skos:note "Enthält die DDC-Klassen 020"@de ;
+       skos:note "Includes DDC classes 020"@en ;
+       skos:prefLabel "Bibliotheks- und Informationswissenschaft"@de ;
+	   skos:prefLabel "Library and information sciences"@en ;
+       skos:narrowMatch <http://dewey.info/class/020/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG030 a skos:Concept ;
+       skos:notation "030" ;
+	   skos:note "Enthält die DDC-Klassen 030"@de ;
+       skos:note "Includes DDC classes 030"@en ;
+       skos:prefLabel "Enzyklopädien"@de ;
+	   skos:prefLabel "Encyclopedic works"@en ;
+       skos:narrowMatch <http://dewey.info/class/030/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG050 a skos:Concept ;
+       skos:notation "050" ;
+	   skos:note "Enthält die DDC-Klassen 050"@de ;
+       skos:note "Includes DDC classes 050"@en ;
+       skos:prefLabel "Zeitschriften, fortlaufende Sammelwerke"@de ;
+	   skos:prefLabel "Magazines, journals and serials"@en ;
+       skos:narrowMatch <http://dewey.info/class/050/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG060 a skos:Concept ;
+       skos:notation "060" ;
+	   skos:note "Enthält die DDC-Klassen 060"@de ;
+       skos:note "Includes DDC classes 060"@en ;
+       skos:prefLabel "Organisationen, Museumswissenschaft"@de ;
+	   skos:prefLabel "Organizations and museology"@en ;
+       skos:narrowMatch <http://dewey.info/class/060/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG070 a skos:Concept ;
+       skos:notation "070" ;
+	   skos:note "Enthält die DDC-Klassen 070"@de ;
+       skos:note "Includes DDC classes 070"@en ;
+       skos:prefLabel "Nachrichtenmedien, Journalismus, Verlagswesen"@de ;
+	   skos:prefLabel "News media, journalism, publishing"@en ;
+       skos:narrowMatch <http://dewey.info/class/070/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG080 a skos:Concept ;
+       skos:notation "080" ;
+	   skos:note "Enthält die DDC-Klassen 080"@de ;
+       skos:note "Includes DDC classes 080"@en ;
+       skos:prefLabel "Allgemeine Sammelwerke"@de ;
+	   skos:prefLabel "General collections"@en ;
+       skos:narrowMatch <http://dewey.info/class/080/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG090 a skos:Concept ;
+       skos:notation "090" ;
+	   skos:note "Enthält die DDC-Klassen 090"@de ;
+       skos:note "Includes DDC classes 090"@en ;
+       skos:prefLabel "Handschriften, seltene Bücher"@de ;
+	   skos:prefLabel "Manuscripts and rare books"@en ;
+       skos:narrowMatch <http://dewey.info/class/090/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> ;
+       skos:broader :HK000 .
+
+:SG100 a skos:Concept ;
+       skos:notation "100" ;
+	   skos:note "Enthält die DDC-Klassen 100-120, 140, 160-190"@de ;
+       skos:note "Includes DDC classes 100-120, 140, 160-190"@en ;
+       skos:prefLabel "Philosophie"@de ;
+	   skos:prefLabel "Philosophy"@en ;
+       skos:narrowMatch <http://dewey.info/class/100/e23/> ,
+                    <http://dewey.info/class/110/e23/> ,
+                    <http://dewey.info/class/120/e23/> ,
+                    <http://dewey.info/class/140/e23/> ,
+                    <http://dewey.info/class/160/e23/> ,
+                    <http://dewey.info/class/170/e23/> ,
+                    <http://dewey.info/class/180/e23/> ,
+                    <http://dewey.info/class/190/e23/> ;
+       skos:broader :HK100 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG130 a skos:Concept ;
+       skos:notation "130" ;
+	   skos:note "Enthält die DDC-Klassen 130"@de ;
+       skos:note "Includes DDC classes 130"@en ;
+       skos:prefLabel "Parapsychologie, Okkultismus"@de ;
+	   skos:prefLabel "Parapsychology, occultism"@en ;
+       skos:narrowMatch <http://dewey.info/class/130/e23/> ;
+       skos:broader :HK100 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG150 a skos:Concept ;
+       skos:notation "150" ;
+	   skos:note "Enthält die DDC-Klassen 150"@de ;
+       skos:note "Includes DDC classes 150"@en ;
+       skos:prefLabel "Psychologie"@de ;
+	   skos:prefLabel "Psychology"@en ;
+       skos:narrowMatch <http://dewey.info/class/150/e23/> ;
+       skos:broader :HK100 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG200 a skos:Concept ;
+       skos:notation "200" ;
+	   skos:note "Enthält die DDC-Klassen 200, 210"@de ;
+       skos:note "Includes DDC classes 200, 210"@en ;
+       skos:prefLabel "Religion, Religionsphilosphie"@de ;
+	   skos:prefLabel "Religion, philosophy of religion"@en ;
+       skos:narrowMatch <http://dewey.info/class/200/e23/> ,
+                    <http://dewey.info/class/210/e23/> ;
+       skos:broader :HK200 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG220 a skos:Concept ;
+       skos:notation "220" ;
+	   skos:note "Enthält die DDC-Klassen 220"@de ;
+       skos:note "Includes DDC classes 220"@en ;
+       skos:prefLabel "Bibel"@de ;
+	   skos:prefLabel "Bible"@en ;
+       skos:narrowMatch <http://dewey.info/class/220/e23/> ;
+       skos:broader :HK200 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG230 a skos:Concept ;
+       skos:notation "230" ;
+	   skos:note "Enthält die DDC-Klassen 230-280"@de ;
+       skos:note "Includes DDC classes 230-280"@en ;
+       skos:prefLabel "Theologie, Christentum"@de ;
+	   skos:prefLabel "Theology, Christianity"@en ;
+       skos:narrowMatch <http://dewey.info/class/230/e23/> ,
+                    <http://dewey.info/class/240/e23/> ,
+                    <http://dewey.info/class/250/e23/> ,
+                    <http://dewey.info/class/260/e23/> ,
+                    <http://dewey.info/class/270/e23/> ,
+                    <http://dewey.info/class/280/e23/> ;
+       skos:broader :HK200 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG290 a skos:Concept ;
+       skos:notation "290" ;
+	   skos:note "Enthält die DDC-Klassen 290"@de ;
+       skos:note "Includes DDC classes 290"@en ;
+	   skos:prefLabel "Andere Religionen"@de ;
+	   skos:prefLabel "Other religions"@en ;
+       skos:narrowMatch <http://dewey.info/class/290/e23/> ;
+       skos:broader :HK200 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG300 a skos:Concept ;
+	   skos:notation "300" ;
+	   skos:note "Enthält die DDC-Klassen 300"@de ;
+       skos:note "Includes DDC classes 300"@en ;
+       skos:prefLabel "Sozialwissenschaften, Soziologie, Anthropologie "@de ;
+	   skos:prefLabel "Social sciences, sociology, anthropology"@en ;
+       skos:narrowMatch <http://dewey.info/class/300/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG310 a skos:Concept ;
+       skos:notation "310" ;
+	   skos:note "Enthält die DDC-Klassen 310"@de ;
+       skos:note "Includes DDC classes 310"@en ;
+       skos:prefLabel "Allgemeine Statistiken"@de ;
+	   skos:prefLabel "General statistics"@en ;
+       skos:narrowMatch <http://dewey.info/class/310/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG320 a skos:Concept ;
+       skos:notation "320" ;
+	   skos:note "Enthält die DDC-Klassen 320"@de ;
+       skos:note "Includes DDC classes 320"@en ;
+       skos:prefLabel "Politik"@de ;
+	   skos:prefLabel "Political science"@en ;
+       skos:narrowMatch <http://dewey.info/class/320/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG330 a skos:Concept ;
+       skos:notation "330" ;
+	   skos:note "Enthält die DDC-Klassen 330"@de ;
+       skos:note "Includes DDC classes 330"@en ;
+       skos:prefLabel "Wirtschaft"@de ;
+	   skos:prefLabel "Economics"@en ;
+	   skos:scopeNote "Management in 650"@de ;
+	   skos:scopeNote "Management in 650"@en ;
+	   rdfs:seeAlso :SG650 ;
+       skos:narrowMatch <http://dewey.info/class/330/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG333_7 a skos:Concept ;
+         skos:notation "333.7" ;
+		 skos:note "Enthält die DDC-Klassen 333.7-333.9"@de ;
+         skos:note "Includes DDC classes 333.7-333.9"@en ;
+         skos:prefLabel "Natürliche Ressourcen, Energie und Umwelt"@de ;
+		 skos:prefLabel "Natural resources, energy and environment"@en ;
+         skos:narrowMatch <http://dewey.info/class/333.7/e23/> ,
+                      <http://dewey.info/class/333.8/e23/> ,
+                      <http://dewey.info/class/333.9/e23/> ;
+         skos:broader :SG300 ;
+         skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG340 a skos:Concept ;
+		skos:notation "340" ;
+		skos:note "Enthält die DDC-Klassen 340"@de ;
+        skos:note "Includes DDC classes 340"@en ;
+		skos:prefLabel "Recht"@de ;
+		skos:prefLabel "Law"@en ;
+		skos:scopeNote "Kriminologie, Strafvollzug in 360"@de ;
+		skos:scopeNote "Criminology, penal institutions in 360"@en ;
+		rdfs:seeAlso :SG360 ;
+		skos:narrowMatch <http://dewey.info/class/340/e23/> ;
+		skos:broader :HK300 ;
+		skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG350 a skos:Concept ;
+       skos:notation "350" ;
+	   skos:note "Enthält die DDC-Klassen 350-354"@de ;
+       skos:note "Includes DDC classes 350-354"@en ;
+       skos:prefLabel "Öffentliche Verwaltung"@de ;
+	   skos:prefLabel "Public administration"@en ;
+       skos:narrowMatch <http://dewey.info/class/350/e23/> ,
+                    <http://dewey.info/class/351/e23/> ,
+                    <http://dewey.info/class/352/e23/> ,
+                    <http://dewey.info/class/353/e23/> ,
+                    <http://dewey.info/class/354/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG355 a skos:Concept ;
+       skos:notation "355" ;
+	   skos:note "Enthält die DDC-Klassen 355-359"@de ;
+       skos:note "Includes DDC classes 355-359"@en ;
+       skos:prefLabel "Militär"@de ;
+	   skos:prefLabel "Military science"@en ;
+       skos:narrowMatch <http://dewey.info/class/355/e23/> ,
+                    <http://dewey.info/class/356/e23/> ,
+                    <http://dewey.info/class/357/e23/> ,
+                    <http://dewey.info/class/358/e23/> ,
+                    <http://dewey.info/class/359/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG360 a skos:Concept ;
+       skos:notation "360" ;
+	   skos:note "Enthält die DDC-Klassen 360"@de ;
+       skos:note "Includes DDC classes 360"@en ;
+       skos:prefLabel "Soziale Probleme, Sozialdienste, Versicherungen"@de ;
+	   skos:prefLabel "Social problems , social services, insurance"@en ;
+       skos:narrowMatch <http://dewey.info/class/360/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG370 a skos:Concept ;
+       skos:notation "370" ;
+	   skos:note "Enthält die DDC-Klassen 370"@de ;
+       skos:note "Includes DDC classes 370"@en ;
+       skos:prefLabel "Erziehung, Schul- und Bildungswesen"@de ;
+	   skos:prefLabel "Education"@en ;
+       skos:narrowMatch <http://dewey.info/class/370/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG380 a skos:Concept ;
+       skos:notation "380" ;
+	   skos:note "Enthält die DDC-Klassen 380"@de ;
+       skos:note "Includes DDC classes 380"@en ;
+       skos:prefLabel "Handel, Kommunikation, Verkehr"@de ;
+	   skos:prefLabel "Commerce, communications, transportation"@en ;
+	   skos:scopeNote "Philatelie in 740"@de ;
+	   skos:scopeNote "Philately in 740"@en ;
+	   rdfs:seeAlso :SG740 ;
+       skos:narrowMatch <http://dewey.info/class/380/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG390 a skos:Concept ;
+       skos:notation "390" ;
+	   skos:note "Enthält die DDC-Klassen 390"@de ;
+       skos:note "Includes DDC classes 390"@en ;
+       skos:prefLabel "Bräuche, Etikette, Folklore"@de ;
+	   skos:prefLabel "Customs, etiquette, folklore"@en ;
+       skos:narrowMatch <http://dewey.info/class/390/e23/> ;
+       skos:broader :HK300 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG400 a skos:Concept ;
+       skos:notation "400" ;
+	   skos:note "Enthält die DDC-Klassen 400, 410"@de ;
+       skos:note "Includes DDC classes 400, 410"@en ;
+       skos:prefLabel "Sprache, Linguistik"@de ;
+	   skos:prefLabel "Language, linguistics"@en ;
+       skos:narrowMatch <http://dewey.info/class/400/e23/> ,
+                    <http://dewey.info/class/410/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG420 a skos:Concept ;
+       skos:notation "420" ;
+	   skos:note "Enthält die DDC-Klassen 420"@de ;
+       skos:note "Includes DDC classes 420"@en ;
+       skos:prefLabel "Englisch"@de ;
+	   skos:prefLabel "English"@en ;
+       skos:narrowMatch <http://dewey.info/class/420/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG430 a skos:Concept ;
+       skos:notation "430" ;
+	   skos:note "Enthält die DDC-Klassen 430"@de ;
+       skos:note "Includes DDC classes 430"@en ;
+       skos:prefLabel "Deutsch"@de ;
+	   skos:prefLabel "German"@en ;
+       skos:narrowMatch <http://dewey.info/class/430/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG439 a skos:Concept ;
+       skos:notation "439" ;
+	   skos:note "Enthält die DDC-Klassen 439"@de ;
+       skos:note "Includes DDC classes 439"@en ;
+       skos:prefLabel "Andere germanische Sprachen"@de ;
+	   skos:prefLabel "Other Germanic languages"@en ;
+       skos:narrowMatch <http://dewey.info/class/439/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG440 a skos:Concept ;
+       skos:notation "440" ;
+	   skos:note "Enthält die DDC-Klassen 440"@de ;
+       skos:note "Includes DDC classes 440"@en ;
+       skos:prefLabel "Französisch, romanische Sprachen allgemein"@de ;
+	   skos:prefLabel "French, Romance languages in general"@en ;
+       skos:narrowMatch <http://dewey.info/class/440/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG450 a skos:Concept ;
+       skos:notation "450" ;
+	   skos:note "Enthält die DDC-Klassen 450"@de ;
+       skos:note "Includes DDC classes 450"@en ;
+       skos:prefLabel "Italienisch, Rumänisch, Rätoromanisch"@de ;
+	   skos:prefLabel "Italian, Romanian, Rhaeto-Romanic"@en ;
+       skos:narrowMatch <http://dewey.info/class/450/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG460 a skos:Concept ;
+       skos:notation "460" ;
+	   skos:note "Enthält die DDC-Klassen 460"@de ;
+       skos:note "Includes DDC classes 460"@en ;
+       skos:prefLabel "Spanisch, Portugiesisch"@de ;
+	   skos:prefLabel "Spanish, Portuguese"@en ;
+       skos:narrowMatch <http://dewey.info/class/460/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG470 a skos:Concept ;
+       skos:notation "470" ;
+	   skos:note "Enthält die DDC-Klassen 470"@de ;
+       skos:note "Includes DDC classes 470"@en ;
+       skos:prefLabel "Latein"@de ;
+	   skos:prefLabel "Latin"@en ;
+       skos:narrowMatch <http://dewey.info/class/470/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG480 a skos:Concept ;
+       skos:notation "480" ;
+	   skos:note "Enthält die DDC-Klassen 480"@de ;
+       skos:note "Includes DDC classes 480"@en ;
+       skos:prefLabel "Griechisch"@de ;
+	   skos:prefLabel "Greek"@en ;
+       skos:narrowMatch <http://dewey.info/class/480/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG490 a skos:Concept ;
+       skos:notation "490" ;
+	   skos:note "Enthält die DDC-Klassen 490"@de ;
+       skos:note "Includes DDC classes 490"@en ;
+       skos:prefLabel "Andere Sprachen"@de ;
+	   skos:prefLabel "Other languages"@en ;
+       skos:narrowMatch <http://dewey.info/class/490/e23/> ;
+       skos:broader :HK400 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+	   
+:SG491_8 a skos:Concept ;
+		skos:notation "491.8" ;
+		skos:note "Enthält die DDC-Klassen 491.7-491.8"@de ;
+        skos:note "Includes DDC classes 491.7-491.8"@en ;
+		skos:prefLabel "Slawische Sprachen"@de ;
+		skos:prefLabel "Slavic (Slavonic) languages"@en ;
+		skos:narrowMatch <http://dewey.info/class/491.7/e23/> ,
+			<http://dewey.info/class/491.8/e23/> ;
+		skos:broader :HK400 ;
+		skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG500 a skos:Concept ;
+       skos:notation "500" ;
+	   skos:note "Enthält die DDC-Klassen 500"@de ;
+       skos:note "Includes DDC classes 500"@en ;
+       skos:prefLabel "Naturwissenschaften"@de ;
+	   skos:prefLabel "Natural sciences"@en ;
+       skos:narrowMatch <http://dewey.info/class/500/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG510 a skos:Concept ;
+       skos:notation "510" ;
+	   skos:note "Enthält die DDC-Klassen 510"@de ;
+       skos:note "Includes DDC classes 510"@en ;
+       skos:prefLabel "Mathematik"@de ;
+	   skos:prefLabel "Mathematics"@en ;
+       skos:narrowMatch <http://dewey.info/class/510/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG520 a skos:Concept ;
+       skos:notation "520" ;
+	   skos:note "Enthält die DDC-Klassen 520"@de ;
+       skos:note "Includes DDC classes 520"@en ;
+       skos:prefLabel "Astronomie, Kartografie"@de ;
+	   skos:prefLabel "Astronomy, cartography"@en ;
+       skos:narrowMatch <http://dewey.info/class/520/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG530 a skos:Concept ;
+       skos:notation "530" ;
+	   skos:note "Enthält die DDC-Klassen 530"@de ;
+       skos:note "Includes DDC classes 530"@en ;
+       skos:prefLabel "Physik"@de ;
+	   skos:prefLabel "Physics"@en ;
+       skos:narrowMatch <http://dewey.info/class/530/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG540 a skos:Concept ;
+       skos:notation "540" ;
+	   skos:note "Enthält die DDC-Klassen 540"@de ;
+       skos:note "Includes DDC classes 540"@en ;
+       skos:prefLabel "Chemie"@de ;
+	   skos:prefLabel "Chemistry"@en ;
+	   skos:scopeNote "Biochemie in 570"@de ;
+	   skos:scopeNote "Biochemistry in 570"@en ;
+	   rdfs:seeAlso :SG570 ;
+       skos:narrowMatch <http://dewey.info/class/540/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG550 a skos:Concept ;
+	   skos:notation "550" ;
+	   skos:note "Enthält die DDC-Klassen 550"@de ;
+       skos:note "Includes DDC classes 550"@en ;
+       skos:prefLabel "Geowissenschaften"@de ;
+	   skos:prefLabel "Earth sciences and geology"@en ;
+	   skos:scopeNote "Kartografie, Geodäsie in 520;Kristallografie, Mineralogie in 540; Bodenkunde in 630"@de ;
+	   skos:scopeNote "Cartography, geodesy in 520; crystallography, mineralogy in 540; soil science in 630"@en ;
+	   rdfs:seeAlso :SG520 , :SG540 , :SG630;
+       skos:narrowMatch <http://dewey.info/class/550/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG560 a skos:Concept ;
+       skos:notation "560" ;
+	   skos:note "Enthält die DDC-Klassen 560"@de ;
+       skos:note "Includes DDC classes 560"@en ;
+       skos:prefLabel "Paläontologie"@de ;
+	   skos:prefLabel "Paleontology"@en ;
+       skos:narrowMatch <http://dewey.info/class/560/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG570 a skos:Concept ;
+       skos:notation "570" ;
+	   skos:note "Enthält die DDC-Klassen 570"@de ;
+       skos:note "Includes DDC classes 570"@en ;
+       skos:prefLabel "Biowissenschaften, Biologie"@de ;
+	   skos:prefLabel "Life sciences, biology"@en ;
+       skos:narrowMatch <http://dewey.info/class/570/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG580 a skos:Concept ;
+       skos:notation "580" ;
+	   skos:note "Enthält die DDC-Klassen 580"@de ;
+       skos:note "Includes DDC classes 580"@en ;
+       skos:prefLabel "Pflanzen (Botanik)"@de ;
+	   skos:prefLabel "Plants (botany)"@en ;
+       skos:narrowMatch <http://dewey.info/class/580/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG590 a skos:Concept ;
+       skos:notation "590" ;
+	   skos:note "Enthält die DDC-Klassen 590"@de ;
+       skos:note "Includes DDC classes 590"@en ;
+       skos:prefLabel "Tiere (Zoologie)"@de ;
+	   skos:prefLabel "Animals (zoology)"@en ;
+       skos:narrowMatch <http://dewey.info/class/590/e23/> ;
+       skos:broader :HK500 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG600 a skos:Concept ;
+       skos:notation "600" ;
+	   skos:note "Enthält die DDC-Klassen 600"@de ;
+       skos:note "Includes DDC classes 600"@en ;
+       skos:prefLabel "Technik"@de ;
+	   skos:prefLabel "Technology"@en ;
+       skos:narrowMatch <http://dewey.info/class/600/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG610 a skos:Concept ;
+       skos:notation "610" ;
+	   skos:note "Enthält die DDC-Klassen 610"@de ;
+       skos:note "Includes DDC classes 610"@en ;
+       skos:prefLabel "Medizin, Gesundheit"@de ;
+	   skos:prefLabel "Medicine and health"@en ;
+	   skos:scopeNote "Veterinärmedizin in 630"@de ;
+	   skos:scopeNote "Veterinary medicine in 630"@en ;
+	   rdfs:seeAlso :SG630 ;
+       skos:narrowMatch <http://dewey.info/class/610/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG620 a skos:Concept ;
+       skos:notation "620" ;
+	   skos:note "Enthält die DDC-Klassen 620, 621 (außer 621.3 und 621.46), 623, 625.19, 625.2, 629 (außer 629.8)"@de ;
+       skos:note "Includes DDC classes 620, 621 (except 621.3 and 621.46), 623, 625.19, 625.2, 629 (except 629.8)"@en ;
+       skos:prefLabel "Ingenieurwissenschaften und Maschinenbau"@de ;
+	   skos:prefLabel "Engineering and machine engineering"@en ;
+       skos:narrowMatch <http://dewey.info/class/620/e23/> ,
+		<http://dewey.info/class/621/e23/> ,
+		<http://dewey.info/class/623/e23/> ,
+		<http://dewey.info/class/625.19/e23/> ,
+		<http://dewey.info/class/625.2/e23/> ,
+		<http://dewey.info/class/629/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG621_3 a skos:Concept ;
+	skos:notation "621.3" ;
+	skos:note "Enthält die DDC-Klassen 621.3, 621.46, 629.8"@de ;
+    skos:note "Includes DDC classes 621.3, 621.46, 629.8"@en ;
+	skos:prefLabel "Elektrotechnik, Elektronik"@de ;
+	skos:prefLabel "Electrical engineering, electronics"@en ;
+	skos:narrowMatch <http://dewey.info/class/621.3/e23/> ,
+		<http://dewey.info/class/621.46/e23/> ,
+		<http://dewey.info/class/629.8/e23/> ;
+	skos:broader :HK600 ;
+	skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG624 a skos:Concept ;
+	skos:notation "624" ;
+	skos:note "Enthält die DDC-Klassen 622, 624–628 (außer 625.19 und 625.2)"@de ;
+    skos:note "Includes DDC classes 622, 624–628 (except 625.19 and 625.2)"@en ;
+	skos:prefLabel "Ingenieurbau und Umwelttechnik"@de ;
+	skos:prefLabel "Civil engineering and environmental protection engineering"@en ;
+	skos:narrowMatch <http://dewey.info/class/622/e23/> ,
+		<http://dewey.info/class/624/e23/> ,
+		<http://dewey.info/class/625/e23/> ,
+		<http://dewey.info/class/626/e23/> ,
+		<http://dewey.info/class/627/e23/> ,
+		<http://dewey.info/class/628/e23/> ;
+	skos:broader :HK600 ;
+	skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG630 a skos:Concept ;
+       skos:notation "630" ;
+	   skos:note "Enthält die DDC-Klassen 630"@de ;
+       skos:note "Includes DDC classes 630"@en ;
+       skos:prefLabel "Landwirtschaft, Veterinärmedizin"@de ;
+	   skos:prefLabel "Agriculture, veterinary medicine"@en ;
+       skos:narrowMatch <http://dewey.info/class/630/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG640 a skos:Concept ;
+       skos:notation "640" ;
+	   skos:note "Enthält die DDC-Klassen 640"@de ;
+       skos:note "Includes DDC classes 640"@en ;
+       skos:prefLabel "Hauswirtschaft und Familienleben"@de ;
+	   skos:prefLabel "Home and family management"@en ;
+       skos:narrowMatch <http://dewey.info/class/640/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG650 a skos:Concept ;
+       skos:notation "650" ;
+	   skos:note "Enthält die DDC-Klassen 650"@de ;
+       skos:note "Includes DDC classes 650"@en ;
+       skos:prefLabel "Management"@de ;
+	   skos:prefLabel "Management"@en ;
+       skos:narrowMatch <http://dewey.info/class/650/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG660 a skos:Concept ;
+       skos:notation "660" ;
+	   skos:note "Enthält die DDC-Klassen 660"@de ;
+       skos:note "Includes DDC classes 660"@en ;
+       skos:prefLabel "Technische Chemie"@de ;
+	   skos:prefLabel "Chemical engineering"@en ;
+       skos:narrowMatch <http://dewey.info/class/660/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG670 a skos:Concept ;
+       skos:notation "670" ;
+	   skos:note "Enthält die DDC-Klassen 670, 680"@de ;
+       skos:note "Includes DDC classes 670, 680"@en ;
+       skos:prefLabel "Industrielle und handwerkliche Fertigung"@de ;
+	   skos:prefLabel "Manufacturing"@en ;
+       skos:narrowMatch <http://dewey.info/class/670/e23/> ,
+                    <http://dewey.info/class/680/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG690 a skos:Concept ;
+       skos:notation "690" ;
+	   skos:note "Enthält die DDC-Klassen 690"@de ;
+       skos:note "Includes DDC classes 690"@en ;
+       skos:prefLabel "Hausbau, Bauhandwerk"@de ;
+	   skos:prefLabel "Building and construction"@en ;
+       skos:narrowMatch <http://dewey.info/class/690/e23/> ;
+       skos:broader :HK600 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG700 a skos:Concept ;
+       skos:notation "700" ;
+	   skos:note "Enthält die DDC-Klassen 700"@de ;
+       skos:note "Includes DDC classes 700"@en ;
+       skos:prefLabel "Künste, Bildende Kunst allgemein"@de ;
+	   skos:prefLabel "Arts"@en ;
+       skos:narrowMatch <http://dewey.info/class/700/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG710 a skos:Concept ;
+       skos:notation "710" ;
+	   skos:note "Enthält die DDC-Klassen 710"@de ;
+       skos:note "Includes DDC classes 710"@en ;
+       skos:prefLabel "Landschaftsgestaltung, Raumplanung"@de ;
+	   skos:prefLabel "Landscaping and area planning"@en ;
+       skos:narrowMatch <http://dewey.info/class/710/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG720 a skos:Concept ;
+       skos:notation "720" ;
+	   skos:note "Enthält die DDC-Klassen 720"@de ;
+       skos:note "Includes DDC classes 720"@en ;
+       skos:prefLabel "Architektur"@de ;
+	   skos:prefLabel "Architecture"@en ;
+       skos:narrowMatch <http://dewey.info/class/720/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG730 a skos:Concept ;
+       skos:notation "730" ;
+	   skos:note "Enthält die DDC-Klassen 730"@de ;
+       skos:note "Includes DDC classes 730"@en ;
+       skos:prefLabel "Plastik, Numismatik, Keramik, Metallkunst"@de ;
+	   skos:prefLabel "Plastic arts, numismatics, ceramics, metalwork"@en ;
+       skos:narrowMatch <http://dewey.info/class/730/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG740 a skos:Concept ;
+       skos:notation "740" ;
+	   skos:note "Enthält die DDC-Klassen 740"@de ;
+       skos:note "Includes DDC classes 740"@en ;
+       skos:prefLabel "Grafik, angewandte Kunst"@de ;
+	   skos:prefLabel "Graphic arts, decorative arts"@en ;
+       skos:narrowMatch <http://dewey.info/class/740/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG741_5 a skos:Concept ;
+         skos:notation "741.5" ;
+		 skos:note "Enthält die DDC-Klassen 741.5"@de ;
+         skos:note "Includes DDC classes 741.5"@en ;
+         skos:prefLabel "Comics, Cartoons, Karikaturen"@de ;
+		 skos:prefLabel "Comics, cartoons, caricatures"@en ;
+         skos:narrowMatch <http://dewey.info/class/741.5/e23/> ;
+         skos:broader :HK700 ;
+         skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG750 a skos:Concept ;
+       skos:notation "750" ;
+	   skos:note "Enthält die DDC-Klassen 750"@de ;
+       skos:note "Includes DDC classes 750"@en ;
+       skos:prefLabel "Malerei"@de ;
+	   skos:prefLabel "Painting"@en ;
+       skos:narrowMatch <http://dewey.info/class/750/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG760 a skos:Concept ;
+       skos:notation "760" ;
+	   skos:note "Enthält die DDC-Klassen 760"@de ;
+       skos:note "Includes DDC classes 760"@en ;
+       skos:prefLabel "Druckgrafik, Drucke"@de ;
+	   skos:prefLabel "Printmaking, prints"@en ;
+       skos:narrowMatch <http://dewey.info/class/760/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG770 a skos:Concept ;
+       skos:notation "770" ;
+	   skos:note "Enthält die DDC-Klassen 770"@de ;
+       skos:note "Includes DDC classes 770"@en ;
+       skos:prefLabel "Fotografie, Video, Computerkunst"@de ;
+	   skos:prefLabel "Photography, videography, computer art"@en ;
+       skos:narrowMatch <http://dewey.info/class/770/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG780 a skos:Concept ;
+       skos:notation "780" ;
+	   skos:note "Enthält die DDC-Klassen 780"@de ;
+       skos:note "Includes DDC classes 780"@en ;
+       skos:prefLabel "Musik"@de ;
+	   skos:prefLabel "Music"@en ;
+       skos:narrowMatch <http://dewey.info/class/780/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG790 a skos:Concept ;
+       skos:notation "790" ;
+	   skos:note "Enthält die DDC-Klassen 790-790.2"@de ;
+       skos:note "Includes DDC classes 790-790.2"@en ;
+       skos:prefLabel "Freizeitgestaltung, Darstellende Kunst"@de ;
+	   skos:prefLabel "Recreational and performing arts"@en ;
+       skos:narrowMatch <http://dewey.info/class/790/e23/> ,
+                    <http://dewey.info/class/790.1/e23/> ,
+                    <http://dewey.info/class/790.2/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG791 a skos:Concept ;
+       skos:notation "791" ;
+	   skos:note "Enthält die DDC-Klassen 791"@de ;
+       skos:note "Includes DDC classes 791"@en ;
+       skos:prefLabel "Öffentliche Darbietungen, Film, Rundfunk"@de ;
+	   skos:prefLabel "Public performances, film, radio, television"@en ;
+       skos:narrowMatch <http://dewey.info/class/791/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG792 a skos:Concept ;
+       skos:notation "792" ;
+	   skos:note "Enthält die DDC-Klassen 792"@de ;
+       skos:note "Includes DDC classes 792"@en ;
+       skos:prefLabel "Theater, Tanz"@de ;
+	   skos:prefLabel "Theater, dance"@en ;
+       skos:narrowMatch <http://dewey.info/class/792/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG793 a skos:Concept ;
+       skos:notation "793" ;
+	   skos:note "Enthält die DDC-Klassen 793-795"@de ;
+       skos:note "Includes DDC classes 793-795"@en ;
+       skos:prefLabel "Spiel"@de ;
+	   skos:prefLabel "Games"@en ;
+       skos:narrowMatch <http://dewey.info/class/793/e23/> ,
+                    <http://dewey.info/class/794/e23/> ,
+                    <http://dewey.info/class/795/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG796 a skos:Concept ;
+       skos:notation "796" ;
+	   skos:note "Enthält die DDC-Klassen 796-799"@de ;
+       skos:note "Includes DDC classes 796-799"@en ;
+       skos:prefLabel "Sport"@de ;
+	   skos:prefLabel "Sports"@en ;
+       skos:narrowMatch <http://dewey.info/class/796/e23/> ,
+                    <http://dewey.info/class/797/e23/> ,
+                    <http://dewey.info/class/798/e23/> ,
+                    <http://dewey.info/class/799/e23/> ;
+       skos:broader :HK700 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG800 a skos:Concept ;
+       skos:notation "800" ;
+	   skos:note "Enthält die DDC-Klassen 800"@de ;
+       skos:note "Includes DDC classes 800"@en ;
+       skos:prefLabel "Literatur, Rhetorik, Literaturwissenschaft"@de ;
+	   skos:prefLabel "Literature, rhetoric and criticism"@en ;
+       skos:narrowMatch <http://dewey.info/class/800/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG810 a skos:Concept ;
+       skos:notation "810" ;
+	   skos:note "Enthält die DDC-Klassen 810"@de ;
+       skos:note "Includes DDC classes 810"@en ;
+       skos:prefLabel "Englische Literatur Amerikas"@de ;
+	   skos:prefLabel "American literature in English"@en ;
+       skos:narrowMatch <http://dewey.info/class/810/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG820 a skos:Concept ;
+       skos:notation "820" ;
+	   skos:note "Enthält die DDC-Klassen 820"@de ;
+       skos:note "Includes DDC classes 820"@en ;
+       skos:prefLabel "Englische Literatur"@de ;
+	   skos:prefLabel "English literature"@en ;
+       skos:narrowMatch <http://dewey.info/class/820/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG830 a skos:Concept ;
+       skos:notation "830" ;
+	   skos:note "Enthält die DDC-Klassen 830"@de ;
+       skos:note "Includes DDC classes 830"@en ;
+       skos:prefLabel "Deutsche Literatur"@de ;
+	   skos:prefLabel "German literature"@en ;
+       skos:narrowMatch <http://dewey.info/class/830/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG839 a skos:Concept ;
+       skos:notation "839" ;
+	   skos:note "Enthält die DDC-Klassen 839"@de ;
+       skos:note "Includes DDC classes 839"@en ;
+       skos:prefLabel "Literatur in anderen germanischen Sprachen"@de ;
+	   skos:prefLabel "Other Germanic literatures"@en ;
+       skos:narrowMatch <http://dewey.info/class/839/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG840 a skos:Concept ;
+       skos:notation "840" ;
+	   skos:note "Enthält die DDC-Klassen 840"@de ;
+       skos:note "Includes DDC classes 840"@en ;
+       skos:prefLabel "Französische Literatur"@de ;
+	   skos:prefLabel "French literature"@en ;
+       skos:narrowMatch <http://dewey.info/class/840/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG850 a skos:Concept ;
+       skos:notation "850" ;
+	   skos:note "Enthält die DDC-Klassen 850"@de ;
+       skos:note "Includes DDC classes 850"@en ;
+       skos:prefLabel "Italienische, rumänische, rätoromanische Literatur"@de ;
+	   skos:prefLabel "Italian, Romanian, Rhaeto-Romanic literatures"@en ;
+       skos:narrowMatch <http://dewey.info/class/850/e23/> ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG860 a skos:Concept ;
+       skos:notation "860" ;
+	   skos:note "Enthält die DDC-Klassen 860"@de ;
+       skos:note "Includes DDC classes 860"@en ;
+       skos:prefLabel "Spanische und portugiesische Liteatur"@de ;
+	   skos:prefLabel "Spanish and Portuguese literatures"@en ;
+       skos:narrowMatch <http://dewey.info/class/860/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG870 a skos:Concept ;
+       skos:notation "870" ;
+	   skos:note "Enthält die DDC-Klassen 870"@de ;
+       skos:note "Includes DDC classes 870"@en ;
+       skos:prefLabel "Lateinische Literatur"@de ;
+	   skos:prefLabel "Latin literature"@en ;
+       skos:narrowMatch <http://dewey.info/class/870/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG880 a skos:Concept ;
+       skos:notation "880" ;
+	   skos:note "Enthält die DDC-Klassen 880"@de ;
+       skos:note "Includes DDC classes 880"@en ;
+       skos:prefLabel "Griechische Literatur"@de ;
+	   skos:prefLabel "Greek literature"@en ;
+       skos:narrowMatch <http://dewey.info/class/880/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG890 a skos:Concept ;
+       skos:notation "890" ;
+	   skos:note "Enthält die DDC-Klassen 890"@de ;
+       skos:note "Includes DDC classes 890"@en ;
+       skos:prefLabel "Literatur in anderen Sprachen"@de ;
+	   skos:prefLabel "Other literatures"@en ;
+       skos:narrowMatch <http://dewey.info/class/890/e23/> ;
+       skos:broader :HK800 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+	   
+:SG891_8 a skos:Concept ;
+	skos:notation "891.8" ;
+	skos:note "Enthält die DDC-Klassen 891.7-891.8"@de ;
+    skos:note "Includes DDC classes 891.7-891.8"@en ;
+	skos:prefLabel "Slawische Literatur"@de ;
+	skos:prefLabel "Slavic (Slavonic) literatures"@en ;
+	skos:narrowMatch <http://dewey.info/class/891.7/e23/> ,
+		<http://dewey.info/class/891.8/e23/> ;
+	skos:broader :HK800 ;
+	skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG900 a skos:Concept ;
+       skos:notation "900" ;
+	   skos:note "Enthält die DDC-Klassen 900"@de ;
+       skos:note "Includes DDC classes 900"@en ;
+       skos:prefLabel "Geschichte"@de ;
+	   skos:prefLabel "History"@en ;
+       skos:narrowMatch <http://dewey.info/class/900/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG910 a skos:Concept ;
+       skos:notation "910" ;
+	   skos:note "Enthält die DDC-Klassen 910"@de ;
+       skos:note "Includes DDC classes 910"@en ;
+       skos:prefLabel "Geografie, Reisen"@de ;
+	   skos:prefLabel "Geograpy and travel"@en ;
+       skos:narrowMatch <http://dewey.info/class/910/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG914_3 a skos:Concept ;
+         skos:notation "914.3" ;
+		 skos:note "Enthält die DDC-Klassen 914.3-914.35"@de ;
+         skos:note "Includes DDC classes 914.3-914.35"@en ;
+         skos:prefLabel "Geografie, Reisen (Deutschland)"@de ;
+		 skos:prefLabel "Geography, travel (Germany)"@en ;
+         skos:scopeNote "Im Schweizer Buch (der Schweizerischen Nationalbibliografie) stattdessen: 914.94 Geografie, Reisen (Schweiz). In der Österreichischen Bibliografie stattdessen: 914.36 Geografie, Reisen (Österreich)"@de ;
+	     skos:scopeNote "The Swiss Book (Swiss National Bibliography) used instead: 914.94 Geography, travel (Switzerland). The Austrian National Bibliography used instead: 914.36 Geography, travel (Austria)"@en ;
+         skos:narrowMatch <http://dewey.info/class/914.3/e23/> ,
+			<http://dewey.info/class/914.31/e23/> ,
+			<http://dewey.info/class/914.32/e23/> ,
+			<http://dewey.info/class/914.33/e23/> ,
+			<http://dewey.info/class/914.34/e23/> ,
+			<http://dewey.info/class/914.35/e23/> ;
+         skos:broader :HK900 ;
+         skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG920 a skos:Concept ;
+       skos:notation "920" ;
+	   skos:note "Enthält die DDC-Klassen 920"@de ;
+       skos:note "Includes DDC classes 920"@en ;
+       skos:prefLabel "Biografie, Genealogie, Heraldik"@de ;
+	   skos:prefLabel "Biography, genealogy, heraldry"@en ;
+       skos:narrowMatch <http://dewey.info/class/920/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG930 a skos:Concept ;
+       skos:notation "930" ;
+	   skos:note "Enthält die DDC-Klassen 930"@de ;
+       skos:note "Includes DDC classes 930"@en ;
+       skos:prefLabel "Alte Geschichte, Archäologie"@de ;
+	   skos:prefLabel "History of the ancient world, archaeology"@en ;
+       skos:narrowMatch <http://dewey.info/class/930/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG940 a skos:Concept ;
+       skos:notation "940" ;
+	   skos:note "Enthält die DDC-Klassen 940"@de ;
+       skos:note "Includes DDC classes 940"@en ;
+       skos:prefLabel "Geschichte Europas"@de ;
+	   skos:prefLabel "History of Europe"@en ;
+       skos:narrowMatch <http://dewey.info/class/940/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG943 a skos:Concept ;
+       skos:notation "943" ;
+	   skos:note "Enthält die DDC-Klassen 943-943.5"@de ;
+       skos:note "Includes DDC classes 943-943.5"@en ;
+       skos:prefLabel "Geschichte Deutschlands"@de ;
+	   skos:prefLabel "History of Germany"@en ;
+	   skos:scopeNote "Im Schweizer Buch (der Schweizerischen Nationalbibliografie) stattdessen: 949.4 Geschichte der Schweiz. In der Österreichischen Bibliografie stattdessen: 943.6 Geschichte Österreichs"@de ;
+	   skos:scopeNote "The Swiss Book (Swiss National Bibliography) used instead: 949.4 History of Switzerland. The Austrian National Bibliography used instead: 943.6 History of Austria"@en ;
+       skos:narrowMatch <http://dewey.info/class/943/e23/> ,
+		<http://dewey.info/class/943.1/e23/> ,
+		<http://dewey.info/class/943.2/e23/> ,
+		<http://dewey.info/class/943.3/e23/> ,
+		<http://dewey.info/class/943.4/e23/> ,
+		<http://dewey.info/class/943.5/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG950 a skos:Concept ;
+       skos:notation "950" ;
+	   skos:note "Enthält die DDC-Klassen 950"@de ;
+       skos:note "Includes DDC classes 950"@en ;
+       skos:prefLabel "Geschichte Asiens"@de ;
+	   skos:prefLabel "History of Asia"@en ;
+       skos:narrowMatch <http://dewey.info/class/950/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG960 a skos:Concept ;
+       skos:notation "960" ;
+	   skos:note "Enthält die DDC-Klassen 960"@de ;
+       skos:note "Includes DDC classes 960"@en ;
+       skos:prefLabel "Geschichte Afrikas"@de ;
+	   skos:prefLabel "History of Africa"@en ;
+       skos:narrowMatch <http://dewey.info/class/960/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG970 a skos:Concept ;
+       skos:notation "970" ;
+	   skos:note "Enthält die DDC-Klassen 970"@de ;
+       skos:note "Includes DDC classes 970"@en ;
+       skos:prefLabel "Geschichte Nordamerikas"@de ;
+	   skos:prefLabel "History of North America"@en ;
+       skos:narrowMatch <http://dewey.info/class/970/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG980 a skos:Concept ;
+       skos:notation "980" ;
+	   skos:note "Enthält die DDC-Klassen 980"@de ;
+       skos:note "Includes DDC classes 980"@en ;
+       skos:prefLabel "Geschichte Südamerikas"@de ;
+	   skos:prefLabel "History of South America"@en ;
+       skos:narrowMatch <http://dewey.info/class/980/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG990 a skos:Concept ;
+       skos:notation "990" ;
+	   skos:note "Enthält die DDC-Klassen 990"@de ;
+       skos:note "Includes DDC classes 990"@en ;
+       skos:prefLabel "Geschichte der übrigen Welt"@de ;
+	   skos:prefLabel "History of other regions"@en ;
+       skos:narrowMatch <http://dewey.info/class/990/e23/> ;
+       skos:broader :HK900 ;
+       skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG_B a skos:Concept ;
+      skos:notation "B" ;
+      skos:prefLabel "Belletristik"@de ;
+	  skos:prefLabel "Fiction"@en ;
+	  skos:scopeNote "Wird nur als zusätzliche Sachgruppe zusätzlich zu den Hauptsachgruppen 800-891.8 vergeben"@de ;
+	  skos:scopeNote "Separate category that is only used in addition to main categories 800-891.8"@en ;
+      skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG_K a skos:Concept ;
+      skos:notation "K" ;
+      skos:prefLabel "Kinder- und Jugendliteratur"@de ;
+	  skos:prefLabel "Juvenile literature"@en ;
+      skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
+:SG_S a skos:Concept ;
+      skos:notation "S" ;
+      skos:prefLabel "Schulbücher"@de ;
+	  skos:prefLabel "School textbooks"@en ;
+      skos:inScheme <https://d-nb.info/standards/classification/ddc/ddc-sc#> .
+
