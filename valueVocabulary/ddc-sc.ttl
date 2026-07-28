@@ -147,7 +147,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG870>,
         <https://d-nb.info/standards/classification/ddc-sc#SG880>,
         <https://d-nb.info/standards/classification/ddc-sc#SG890>,
-        <https://d-nb.info/standards/classification/ddc-sc#SG891.8> ;
+        <https://d-nb.info/standards/classification/ddc-sc#SG891_8> ;
     skos:notation "800"^^dnbt:ddc-subject-category ;
     skos:prefLabel "Literatur"@de,
         "Literature"@en .
