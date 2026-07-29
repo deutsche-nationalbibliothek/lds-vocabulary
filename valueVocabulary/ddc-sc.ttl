@@ -652,7 +652,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         "Includes DDC classes 550"@en ;
     skos:prefLabel "Geowissenschaften"@de,
         "Earth sciences and geology"@en ;
-    skos:scopeNote "Kartografie, Geodäsie in 520;Kristallografie, Mineralogie in 540; Bodenkunde in 630"@de,
+    skos:scopeNote "Kartografie, Geodäsie in 520; Kristallografie, Mineralogie in 540; Bodenkunde in 630"@de,
         "Cartography, geodesy in 520; crystallography, mineralogy in 540; soil science in 630"@en .
 
 <https://d-nb.info/standards/classification/ddc-sc#SG560> a skos:Concept ;
