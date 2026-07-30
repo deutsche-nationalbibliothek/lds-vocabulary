@@ -1,0 +1,1297 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<https://d-nb.info/standards/classification/ddc-sc#> a skos:ConceptScheme ;
+    dct:issued "2026-08-01"^^xsd:date ;
+    dct:modified "2026-07-20"^^xsd:date ;
+    owl:versionInfo "1.0" ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    dct:publisher <http://ld.zdb-services.de/resource/organisations/DE-101> ;
+    dc:title "DDC-Sachgruppen der Deutschen Nationalbibliothek (DNB)"@de,
+        "DDC Subject Categories of the German National Library (DNB)"@en ;
+    dc:description """DDC-Sachgruppen der Deutschen Nationalbibliothek (DNB) (inklusive der zur Sachgruppe gehörenden DDC-Klassen; auf Grundlage der 23. Ausgabe der DDC; gliedern seit 2004 die Reihen A, B, C, H und O der Deutschen 
+Nationalbibliografie und den Neuerscheinungsdienst)"""@de , """DDC Subject Categories of the German National Library (DNB) (Including individual DDC classes belonging to a subject category; Based on DDC 23; Used since 2004 to structure the Deutsche 
+Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@en ;
+    vann:preferredNamespacePrefix "ddc-sc" ;
+    vann:preferredNamespaceUri "https://d-nb.info/standards/classification/ddc-sc#" ;
+    skos:hasTopConcept <https://d-nb.info/standards/classification/ddc-sc#HK000>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK100>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK200>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK300>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK400>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK500>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK600>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK700>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK800>,
+        <https://d-nb.info/standards/classification/ddc-sc#HK900> .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK000> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG000>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG004>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG010>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG020>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG030>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG050>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG060>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG070>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG080>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG090> ;
+    skos:notation "000"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Allgemeines, Informatik, Informationswissenschaft"@de,
+        "Generalities, computers, information"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK100> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG100>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG130>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG150> ;
+    skos:notation "100"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Philosophie und Psychologie"@de,
+        "Philosophy and psychology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK200> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG200>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG220>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG230>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG290> ;
+    skos:notation "200"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Religion"@de,
+        "Religion"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK500> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG500>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG510>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG520>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG530>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG540>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG550>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG560>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG570>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG580>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG590> ;
+    skos:notation "500"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Naturwissenschaften und Mathematik"@de,
+        "Natural sciences and mathematics"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK300> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG300>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG310>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG320>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG330>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG333_7>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG340>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG350>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG355>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG360>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG370>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG380>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG390> ;
+    skos:notation "300"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Sozialwissenschaften"@de,
+        "Social sciences"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK400> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG400>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG420>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG430>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG439>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG440>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG450>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG460>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG470>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG480>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG490>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG491_8> ;
+    skos:notation "400"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Sprache"@de,
+        "Language"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK600> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG600>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG610>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG620>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG621_3>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG624>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG630>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG640>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG650>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG660>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG670>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG690> ;
+    skos:notation "600"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Technik, Medizin, angewandte Wissenschaften"@de,
+        "Technology, medicine, applied sciences"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK800> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG800>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG810>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG820>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG830>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG839>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG840>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG850>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG860>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG870>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG880>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG890>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG891_8> ;
+    skos:notation "800"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Literatur"@de,
+        "Literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK900> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG900>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG910>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG914_3>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG920>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG930>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG940>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG943>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG950>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG960>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG970>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG980>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG990> ;
+    skos:notation "900"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Geschichte und Geografie"@de,
+        "History and geography"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#HK700> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG700>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG710>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG720>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG730>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG740>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG741_5>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG750>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG760>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG770>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG780>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG790>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG791>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG792>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG793>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG796> ;
+    skos:notation "700"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Künste und Unterhaltung"@de,
+        "Arts and recreation"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG000> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E33pKJkT4v4WvPJWxChwvmBPKg>,
+        <https://id.oclc.org/worldcat/ddc/E3CtmgXDd8wJdkcXKcffM4M3qm>,
+        <https://id.oclc.org/worldcat/ddc/E3XBhmq9PBHkVqpmtdG7PxcQTJ>,
+        <https://id.oclc.org/worldcat/ddc/E3qKdmdYFCBtjkqX8pX7hkwKqB> ;
+    skos:notation "000"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 000-003"@de,
+        "Includes DDC classes 000-003"@en ;
+    skos:prefLabel "Allgemeines, Wissenschaft"@de,
+        "Generalities, science"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG004> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E379xBCBchbdmrqYKbR6BJFPFX>,
+        <https://id.oclc.org/worldcat/ddc/E3crFxr84MQkDt9mHBYTvbkPCB>,
+        <https://id.oclc.org/worldcat/ddc/E3fBwkTjp89TW8cXVFMddRqqDT> ;
+    skos:notation "004"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 004-006"@de,
+        "Includes DDC classes 004-006"@en ;
+    skos:prefLabel "Informatik"@de,
+        "Computer science"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG010> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3vXFTBRDKQjJqwJtjkqH86BR3> ;
+    skos:notation "010"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 010"@de,
+        "Includes DDC classes 010"@en ;
+    skos:prefLabel "Bibliografien"@de,
+        "Bibliography"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG020> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3PFMMTv4HHQ7tFP9JyfymTvxh> ;
+    skos:notation "020"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 020"@de,
+        "Includes DDC classes 020"@en ;
+    skos:prefLabel "Bibliotheks- und Informationswissenschaft"@de,
+        "Library and information sciences"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG030> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3CQc47VCKD9mCjmTbRBYPQmD9> ;
+    skos:notation "030"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 030"@de,
+        "Includes DDC classes 030"@en ;
+    skos:prefLabel "Enzyklopädien"@de,
+        "Encyclopedic works"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG050> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3TKFXjjQJ7jb98gc7p6rtqdDD> ;
+    skos:notation "050"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 050"@de,
+        "Includes DDC classes 050"@en ;
+    skos:prefLabel "Zeitschriften, fortlaufende Sammelwerke"@de,
+        "Magazines, journals and serials"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG060> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3wTT7t8yVVdx3rwpWbcw6Grkx> ;
+    skos:notation "060"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 060"@de,
+        "Includes DDC classes 060"@en ;
+    skos:prefLabel "Organisationen, Museumswissenschaft"@de,
+        "Organizations and museology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG070> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3gMVQttpMJtdJjcwPJqGvYJ37> ;
+    skos:notation "070"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 070"@de,
+        "Includes DDC classes 070"@en ;
+    skos:prefLabel "Nachrichtenmedien, Journalismus, Verlagswesen"@de,
+        "News media, journalism, publishing"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG080> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3MtByG8TFP6HhpBBcy4qTfckm> ;
+    skos:notation "080"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 080"@de,
+        "Includes DDC classes 080"@en ;
+    skos:prefLabel "Allgemeine Sammelwerke"@de,
+        "General collections"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG090> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK000> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E49DMpcPvw3VmBBg3VM3qQYpV4> ;
+    skos:notation "090"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 090"@de,
+        "Includes DDC classes 090"@en ;
+    skos:prefLabel "Handschriften, seltene Bücher"@de,
+        "Manuscripts and rare books"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG100> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK100> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E36VvWcBFm8mc97RHwBqDh4pXQ>,
+        <https://id.oclc.org/worldcat/ddc/E37xXjVWcPR4XBqRBBghYxvgD7>,
+        <https://id.oclc.org/worldcat/ddc/E3PTqWDgH4bTKmF4bdHcH7mFFP>,
+        <https://id.oclc.org/worldcat/ddc/E3pfGWC4fMC8hTwDvhvvvPFXYC>,
+        <https://id.oclc.org/worldcat/ddc/E3qMwcFPgmWwRrJvhpVcXm6TB8>,
+        <https://id.oclc.org/worldcat/ddc/E3vfkQmwMR6VYqywQF3F7hPQFk>,
+        <https://id.oclc.org/worldcat/ddc/E47gd9yKmpYb8dcKRRvGFmCTT8>,
+        <https://id.oclc.org/worldcat/ddc/E4chRB9d6JthVmdfxYYGDCp3b8> ;
+    skos:notation "100"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 100-120, 140, 160-190"@de,
+        "Includes DDC classes 100-120, 140, 160-190"@en ;
+    skos:prefLabel "Philosophie"@de,
+        "Philosophy"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG130> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK100> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3dDTXcjrRxjThK7cqbCPK3YdY> ;
+    skos:notation "130"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 130"@de,
+        "Includes DDC classes 130"@en ;
+    skos:prefLabel "Parapsychologie, Okkultismus"@de,
+        "Parapsychology, occultism"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG150> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK100> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E36QMTBWktGfyCgbkkHM7JvbvG> ;
+    skos:notation "150"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 150"@de,
+        "Includes DDC classes 150"@en ;
+    skos:prefLabel "Psychologie"@de,
+        "Psychology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG200> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK200> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3bJYKFR3q8JKX4MTkRXRdGqgX>,
+        <https://id.oclc.org/worldcat/ddc/E43BHBrGkQDQ6Xbw7HbRTJmhTY> ;
+    skos:notation "200"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 200, 210"@de,
+        "Includes DDC classes 200, 210"@en ;
+    skos:prefLabel "Religion, Religionsphilosphie"@de,
+        "Religion, philosophy of religion"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG220> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK200> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3vhG9tbTjcVFgx7fHfw3RHKKp> ;
+    skos:notation "220"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 220"@de,
+        "Includes DDC classes 220"@en ;
+    skos:prefLabel "Bibel"@de,
+        "Bible"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG230> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK200> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3H3djYc79jPTTcWYhChgR9dRc>,
+        <https://id.oclc.org/worldcat/ddc/E3RHpTpM7GwdhGTVtvdQKbd3PJ>,
+        <https://id.oclc.org/worldcat/ddc/E3X4KRybVFbv9xGj9kpCpkRPh3>,
+        <https://id.oclc.org/worldcat/ddc/E43XM98pFwttvp7R3K8Dc6V6mw>,
+        <https://id.oclc.org/worldcat/ddc/E46tyqpYBxxY3RtxHjhJMRcWRb>,
+        <https://id.oclc.org/worldcat/ddc/E4cy9rbCDXtwRTx8QB47JkmBjP> ;
+    skos:notation "230"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 230-280"@de,
+        "Includes DDC classes 230-280"@en ;
+    skos:prefLabel "Theologie, Christentum"@de,
+        "Theology, Christianity"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG290> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK200> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3hJCvXfKtY3BrrYWxgM9hjHvg> ;
+    skos:notation "290"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 290"@de,
+        "Includes DDC classes 290"@en ;
+    skos:prefLabel "Andere Religionen"@de,
+        "Other religions"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG310> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3YFmvGMxXgfPQyRjyXx9yPtFF> ;
+    skos:notation "310"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 310"@de,
+        "Includes DDC classes 310"@en ;
+    skos:prefLabel "Allgemeine Statistiken"@de,
+        "General statistics"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG320> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3QWTGGvfxCCrgrVfGBF4bt46Y> ;
+    skos:notation "320"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 320"@de,
+        "Includes DDC classes 320"@en ;
+    skos:prefLabel "Politik"@de,
+        "Political science"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG330> a skos:Concept ;
+    rdfs:seeAlso <https://d-nb.info/standards/classification/ddc-sc#SG650> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E37JHjV9yp67MdX74mthKYkKCx> ;
+    skos:notation "330"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 330"@de,
+        "Includes DDC classes 330"@en ;
+    skos:prefLabel "Wirtschaft"@de,
+        "Economics"@en ;
+    skos:scopeNote "Management in 650"@de,
+        "Management in 650"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG333_7> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#SG300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3FFX4Yh88TmYW9bx6jfJVcjKc>,
+        <https://id.oclc.org/worldcat/ddc/E3YRjtPDY9Mfp3DqRmbhKD6WgK>,
+        <https://id.oclc.org/worldcat/ddc/E3w3XfB3Jjd7jKRRh9FXghkHg8> ;
+    skos:notation "333.7"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 333.7-333.9"@de,
+        "Includes DDC classes 333.7-333.9"@en ;
+    skos:prefLabel "Natürliche Ressourcen, Energie und Umwelt"@de,
+        "Natural resources, energy and environment"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG340> a skos:Concept ;
+    rdfs:seeAlso <https://d-nb.info/standards/classification/ddc-sc#SG360> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3XCWjTw67bJDmC6Fyrr7R4bbr> ;
+    skos:notation "340"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 340"@de,
+        "Includes DDC classes 340"@en ;
+    skos:prefLabel "Recht"@de,
+        "Law"@en ;
+    skos:scopeNote "Kriminologie, Strafvollzug in 360"@de,
+        "Criminology, penal institutions in 360"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG350> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E33qv8KdHTBWGGyWqGCtRpq7th>,
+        <https://id.oclc.org/worldcat/ddc/E3FygWJqbjgxwMGCQyrrWyfTKf>,
+        <https://id.oclc.org/worldcat/ddc/E3Tvhh48tBHKdCF4pR4qqbPfvC>,
+        <https://id.oclc.org/worldcat/ddc/E3Y7D77kMXyFR7mKBdMRKk4MVR>,
+        <https://id.oclc.org/worldcat/ddc/E3wFYqT6Y46PxKpTXVCbbKwfFm> ;
+    skos:notation "350"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 350-354"@de,
+        "Includes DDC classes 350-354"@en ;
+    skos:prefLabel "Öffentliche Verwaltung"@de,
+        "Public administration"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG355> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3B469PrWXXj3P6BqH96MpqWjd>,
+        <https://id.oclc.org/worldcat/ddc/E3FyYKT4rm3Kxd7TQ6KycQ6XBp>,
+        <https://id.oclc.org/worldcat/ddc/E3Kv3vFMCrc8wPfprxTqx7dDyf>,
+        <https://id.oclc.org/worldcat/ddc/E3wygG73fG77qJyJWmY6rTMTyc>,
+        <https://id.oclc.org/worldcat/ddc/E4b6GGGjKTPPpPVDdVTFDpThhD> ;
+    skos:notation "355"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 355-359"@de,
+        "Includes DDC classes 355-359"@en ;
+    skos:prefLabel "Militär"@de,
+        "Military science"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG370> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3dj99DtMwfqCHYGWKvkjjWjJC> ;
+    skos:notation "370"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 370"@de,
+        "Includes DDC classes 370"@en ;
+    skos:prefLabel "Erziehung, Schul- und Bildungswesen"@de,
+        "Education"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG380> a skos:Concept ;
+    rdfs:seeAlso <https://d-nb.info/standards/classification/ddc-sc#SG740> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3GkqBbRx64xmDkvG9DDRbjcc9> ;
+    skos:notation "380"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 380"@de,
+        "Includes DDC classes 380"@en ;
+    skos:prefLabel "Handel, Kommunikation, Verkehr"@de,
+        "Commerce, communications, transportation"@en ;
+    skos:scopeNote "Philatelie in 740"@de,
+        "Philately in 740"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG390> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3bbKVDVy6x7ygXHd9jmw66M8K> ;
+    skos:notation "390"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 390"@de,
+        "Includes DDC classes 390"@en ;
+    skos:prefLabel "Bräuche, Etikette, Folklore"@de,
+        "Customs, etiquette, folklore"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG400> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E43RQpCKxh6brjJBFKfRmKgckx>,
+        <https://id.oclc.org/worldcat/ddc/E4bfHYJDp8Xd4Cqcg8mbVmCdw9> ;
+    skos:notation "400"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 400, 410"@de,
+        "Includes DDC classes 400, 410"@en ;
+    skos:prefLabel "Sprache, Linguistik"@de,
+        "Language, linguistics"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG420> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3dtQkJYdYCcCdj4x4vmCWw9xP> ;
+    skos:notation "420"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 420"@de,
+        "Includes DDC classes 420"@en ;
+    skos:prefLabel "Englisch"@de,
+        "English"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG430> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3PKcgycbvhh6fkbHpYkYcdvJD> ;
+    skos:notation "430"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 430"@de,
+        "Includes DDC classes 430"@en ;
+    skos:prefLabel "Deutsch"@de,
+        "German"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG439> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3PcdwqV3yh67RPp7wjwdkwFGY> ;
+    skos:notation "439"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 439"@de,
+        "Includes DDC classes 439"@en ;
+    skos:prefLabel "Andere germanische Sprachen"@de,
+        "Other Germanic languages"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG440> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E4djfwp7jpJ4hV34gBJy4xWBqJ> ;
+    skos:notation "440"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 440"@de,
+        "Includes DDC classes 440"@en ;
+    skos:prefLabel "Französisch, romanische Sprachen allgemein"@de,
+        "French, Romance languages in general"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG450> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3TQyRxWxVCRjjcCCp4P3FtfKT> ;
+    skos:notation "450"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 450"@de,
+        "Includes DDC classes 450"@en ;
+    skos:prefLabel "Italienisch, Rumänisch, Rätoromanisch"@de,
+        "Italian, Romanian, Rhaeto-Romanic"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG460> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3WxCgGR3kmYHH3FcTVVhxpV7b> ;
+    skos:notation "460"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 460"@de,
+        "Includes DDC classes 460"@en ;
+    skos:prefLabel "Spanisch, Portugiesisch"@de,
+        "Spanish, Portuguese"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG470> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3gJvvcdD4XjWgxtJDPCvk9Wwd> ;
+    skos:notation "470"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 470"@de,
+        "Includes DDC classes 470"@en ;
+    skos:prefLabel "Latein"@de,
+        "Latin"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG480> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E33ptT7km4PwxTrpKcF6Bd7RCM> ;
+    skos:notation "480"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 480"@de,
+        "Includes DDC classes 480"@en ;
+    skos:prefLabel "Griechisch"@de,
+        "Greek"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG490> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3ttpDCrTd3FVCdHtrf7JDKprx> ;
+    skos:notation "490"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 490"@de,
+        "Includes DDC classes 490"@en ;
+    skos:prefLabel "Andere Sprachen"@de,
+        "Other languages"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG491_8> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK400> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E34P9FPh6VYxW99DQjjD7tgYJD>,
+        <https://id.oclc.org/worldcat/ddc/E3hGRMmDFtbmYjfQHYy7Hy7Kcp> ;
+    skos:notation "491.8"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 491.7-491.8"@de,
+        "Includes DDC classes 491.7-491.8"@en ;
+    skos:prefLabel "Slawische Sprachen"@de,
+        "Slavic (Slavonic) languages"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG500> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E38rcWXWBWG6GjxQx7CDpXR9pG> ;
+    skos:notation "500"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 500"@de,
+        "Includes DDC classes 500"@en ;
+    skos:prefLabel "Naturwissenschaften"@de,
+        "Natural sciences"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG510> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E47xrPwhxcpDVhyp8FFY8gJRBV> ;
+    skos:notation "510"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 510"@de,
+        "Includes DDC classes 510"@en ;
+    skos:prefLabel "Mathematik"@de,
+        "Mathematics"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG530> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3kpmXQjmQ8xTcVJBRBw4JMv6B> ;
+    skos:notation "530"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 530"@de,
+        "Includes DDC classes 530"@en ;
+    skos:prefLabel "Physik"@de,
+        "Physics"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG550> a skos:Concept ;
+    rdfs:seeAlso <https://d-nb.info/standards/classification/ddc-sc#SG520>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG540>,
+        <https://d-nb.info/standards/classification/ddc-sc#SG630> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E38CM33vy9DMBGfdfk78YXyXcB> ;
+    skos:notation "550"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 550"@de,
+        "Includes DDC classes 550"@en ;
+    skos:prefLabel "Geowissenschaften"@de,
+        "Earth sciences and geology"@en ;
+    skos:scopeNote "Kartografie, Geodäsie in 520; Kristallografie, Mineralogie in 540; Bodenkunde in 630"@de,
+        "Cartography, geodesy in 520; crystallography, mineralogy in 540; soil science in 630"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG560> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3xwRqwWxXTWRfy8FVBQJbYDk8> ;
+    skos:notation "560"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 560"@de,
+        "Includes DDC classes 560"@en ;
+    skos:prefLabel "Paläontologie"@de,
+        "Paleontology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG580> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3dFvDWxvW8p6khkkWP3GkCxPV> ;
+    skos:notation "580"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 580"@de,
+        "Includes DDC classes 580"@en ;
+    skos:prefLabel "Pflanzen (Botanik)"@de,
+        "Plants (botany)"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG590> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3kgcBfwDmfydkDvmdfvbh4hXg> ;
+    skos:notation "590"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 590"@de,
+        "Includes DDC classes 590"@en ;
+    skos:prefLabel "Tiere (Zoologie)"@de,
+        "Animals (zoology)"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG600> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3yR7KYFCfRjmHb3my7wjkvb7w> ;
+    skos:notation "600"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 600"@de,
+        "Includes DDC classes 600"@en ;
+    skos:prefLabel "Technik"@de,
+        "Technology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG610> a skos:Concept ;
+    rdfs:seeAlso <https://d-nb.info/standards/classification/ddc-sc#SG630> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E38rVRdwMt9CXDhRf7Y3vwdYRm> ;
+    skos:notation "610"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 610"@de,
+        "Includes DDC classes 610"@en ;
+    skos:prefLabel "Medizin, Gesundheit"@de,
+        "Medicine and health"@en ;
+    skos:scopeNote "Veterinärmedizin in 630"@de,
+        "Veterinary medicine in 630"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG620> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3KyTd6cvpj4B3qWwpRBB9WkdF>,
+        <https://id.oclc.org/worldcat/ddc/E3ckwhcYYPdJ44yK866Ft7kDTy>,
+        <https://id.oclc.org/worldcat/ddc/E3hXcwpKydGCpRjCDqxd4pcGxX>,
+        <https://id.oclc.org/worldcat/ddc/E3jqqCRyx6pX4RGD44cjXDFmKQ>,
+        <https://id.oclc.org/worldcat/ddc/E4cJTbbMwHGRcdTV9XKdphJcjG>,
+        <https://id.oclc.org/worldcat/ddc/E4djYmFy7KK4mwFQy33t3Tt7kT> ;
+    skos:notation "620"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 620, 621 (außer 621.3 und 621.46), 623, 625.19, 625.2, 629 (außer 629.8)"@de,
+        "Includes DDC classes 620, 621 (except 621.3 and 621.46), 623, 625.19, 625.2, 629 (except 629.8)"@en ;
+    skos:prefLabel "Ingenieurwissenschaften und Maschinenbau"@de,
+        "Engineering and machine engineering"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG621_3> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3pDqbQ6QQYhM6w8CVHVXMyDfY>,
+        <https://id.oclc.org/worldcat/ddc/E3tbg7YcX8rFmFjd3wHMgmjw3v>,
+        <https://id.oclc.org/worldcat/ddc/E3vDGhmqDCPBfHTMbVMH38PtGy> ;
+    skos:notation "621.3"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 621.3, 621.46, 629.8"@de,
+        "Includes DDC classes 621.3, 621.46, 629.8"@en ;
+    skos:prefLabel "Elektrotechnik, Elektronik"@de,
+        "Electrical engineering, electronics"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG624> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E33d4KTQ97c3pVPh7mWGpbj44B>,
+        <https://id.oclc.org/worldcat/ddc/E39YQ4tr6yGRTKc4HKC69Ydfmf>,
+        <https://id.oclc.org/worldcat/ddc/E3H4XJ8pWbbgpdyfKj6kXHWwrq>,
+        <https://id.oclc.org/worldcat/ddc/E3KrMxtpRg6jkp6Vk3mhmmQffJ>,
+        <https://id.oclc.org/worldcat/ddc/E3tPjwQmcxRdR8jHvRd4fcFy3g>,
+        <https://id.oclc.org/worldcat/ddc/E46wGgvDqcbjWh6647djMpK7XB> ;
+    skos:notation "624"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 622, 624–628 (außer 625.19 und 625.2)"@de,
+        "Includes DDC classes 622, 624–628 (except 625.19 and 625.2)"@en ;
+    skos:prefLabel "Ingenieurbau und Umwelttechnik"@de,
+        "Civil engineering and environmental protection engineering"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG640> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E38P9K8b9Tx3yGcMPCVpBqkdmd> ;
+    skos:notation "640"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 640"@de,
+        "Includes DDC classes 640"@en ;
+    skos:prefLabel "Hauswirtschaft und Familienleben"@de,
+        "Home and family management"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG660> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E47CTJfjt6dvKGrw66bVT3P3gj> ;
+    skos:notation "660"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 660"@de,
+        "Includes DDC classes 660"@en ;
+    skos:prefLabel "Technische Chemie"@de,
+        "Chemical engineering"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG670> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E36yPTRMqXCBtk4DddCXFJvbfb>,
+        <https://id.oclc.org/worldcat/ddc/E3YQTPBxctjB4gDHkRR7vqPjMh> ;
+    skos:notation "670"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 670, 680"@de,
+        "Includes DDC classes 670, 680"@en ;
+    skos:prefLabel "Industrielle und handwerkliche Fertigung"@de,
+        "Manufacturing"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG690> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3xtGGGv3q87jtMTfqjxjkfjVd> ;
+    skos:notation "690"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 690"@de,
+        "Includes DDC classes 690"@en ;
+    skos:prefLabel "Hausbau, Bauhandwerk"@de,
+        "Building and construction"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG700> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3HJhxGgP6hgP3rJVVdW9rxg8G> ;
+    skos:notation "700"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 700"@de,
+        "Includes DDC classes 700"@en ;
+    skos:prefLabel "Künste, Bildende Kunst allgemein"@de,
+        "Arts"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG710> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E37ygb8pQmxbQVT8mJvCTjTqMk> ;
+    skos:notation "710"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 710"@de,
+        "Includes DDC classes 710"@en ;
+    skos:prefLabel "Landschaftsgestaltung, Raumplanung"@de,
+        "Landscaping and area planning"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG720> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3TvTcmV4x4wkGJtmB8RRGbVCV> ;
+    skos:notation "720"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 720"@de,
+        "Includes DDC classes 720"@en ;
+    skos:prefLabel "Architektur"@de,
+        "Architecture"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG730> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3C8q6qWrM83cXw8TPvxY8jT7b> ;
+    skos:notation "730"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 730"@de,
+        "Includes DDC classes 730"@en ;
+    skos:prefLabel "Plastik, Numismatik, Keramik, Metallkunst"@de,
+        "Plastic arts, numismatics, ceramics, metalwork"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG741_5> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3qhMGpvCb7hCb6YyTJjDRbT8k> ;
+    skos:notation "741.5"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 741.5"@de,
+        "Includes DDC classes 741.5"@en ;
+    skos:prefLabel "Comics, Cartoons, Karikaturen"@de,
+        "Comics, cartoons, caricatures"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG750> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3QfdvRwHbt7PfMbWmbrxDFfBg> ;
+    skos:notation "750"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 750"@de,
+        "Includes DDC classes 750"@en ;
+    skos:prefLabel "Malerei"@de,
+        "Painting"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG760> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3JwD88gTM8h6MVKvQqpWbV7T6> ;
+    skos:notation "760"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 760"@de,
+        "Includes DDC classes 760"@en ;
+    skos:prefLabel "Druckgrafik, Drucke"@de,
+        "Printmaking, prints"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG770> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3wvKf7HXphwDy7X47CWqB6wwM> ;
+    skos:notation "770"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 770"@de,
+        "Includes DDC classes 770"@en ;
+    skos:prefLabel "Fotografie, Video, Computerkunst"@de,
+        "Photography, videography, computer art"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG780> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E37PXc7YGhF8MWfrQmr7fwXfHg> ;
+    skos:notation "780"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 780"@de,
+        "Includes DDC classes 780"@en ;
+    skos:prefLabel "Musik"@de,
+        "Music"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG790> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3ymCQ4VxT3vt8k9Bw8JGBPXMx>,
+        <https://id.oclc.org/worldcat/ddc/E49fT6PFFBxkxGWdkFDpg7dbyh>,
+        <https://id.oclc.org/worldcat/ddc/E4ctQFvDQHTgxpYjTQCPxW4Yy9> ;
+    skos:notation "790"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 790-790.2"@de,
+        "Includes DDC classes 790-790.2"@en ;
+    skos:prefLabel "Freizeitgestaltung, Darstellende Kunst"@de,
+        "Recreational and performing arts"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG791> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E47BQr8jCfWhJB4Q3C6GrPyfH8> ;
+    skos:notation "791"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 791"@de,
+        "Includes DDC classes 791"@en ;
+    skos:prefLabel "Öffentliche Darbietungen, Film, Rundfunk"@de,
+        "Public performances, film, radio, television"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG792> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3B4rFFF9hbjrmCFpTrcQHQwtx> ;
+    skos:notation "792"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 792"@de,
+        "Includes DDC classes 792"@en ;
+    skos:prefLabel "Theater, Tanz"@de,
+        "Theater, dance"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG793> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3XJDrJWq3fHYxH8GGRBQHqtxq>,
+        <https://id.oclc.org/worldcat/ddc/E3fmctxjhXwTffdHTKYWB74Vxv>,
+        <https://id.oclc.org/worldcat/ddc/E44T3rmgm4t38B6qytvjTQWkrq> ;
+    skos:notation "793"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 793-795"@de,
+        "Includes DDC classes 793-795"@en ;
+    skos:prefLabel "Spiel"@de,
+        "Games"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG796> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3VmQF6Jfh8TmFRRdmfg4CryqT>,
+        <https://id.oclc.org/worldcat/ddc/E3dpyJYfvvGj3C3hQ3RRGR3fB7>,
+        <https://id.oclc.org/worldcat/ddc/E3w4dtb4Td4RCmFt6Dq7mG9xX3>,
+        <https://id.oclc.org/worldcat/ddc/E46p7cyMYfKgDxJY49c3cpY6VK> ;
+    skos:notation "796"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 796-799"@de,
+        "Includes DDC classes 796-799"@en ;
+    skos:prefLabel "Sport"@de,
+        "Sports"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG800> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E4cVCxG7mDVx63fQCvDPdyfwK9> ;
+    skos:notation "800"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 800"@de,
+        "Includes DDC classes 800"@en ;
+    skos:prefLabel "Literatur, Rhetorik, Literaturwissenschaft"@de,
+        "Literature, rhetoric and criticism"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG810> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3FpWVXPMrgGVKwpFPrm4CBPKD> ;
+    skos:notation "810"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 810"@de,
+        "Includes DDC classes 810"@en ;
+    skos:prefLabel "Englische Literatur Amerikas"@de,
+        "American literature in English"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG820> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3rBCV3gkDmQrYj6QWyb7bV84b> ;
+    skos:notation "820"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 820"@de,
+        "Includes DDC classes 820"@en ;
+    skos:prefLabel "Englische Literatur"@de,
+        "English literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG830> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E37h44gqVt9bp7wdD6wCvKCKj9> ;
+    skos:notation "830"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 830"@de,
+        "Includes DDC classes 830"@en ;
+    skos:prefLabel "Deutsche Literatur"@de,
+        "German literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG839> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3QVkT9mbHQ9brHHgvBtwj7JfQ> ;
+    skos:notation "839"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 839"@de,
+        "Includes DDC classes 839"@en ;
+    skos:prefLabel "Literatur in anderen germanischen Sprachen"@de,
+        "Other Germanic literatures"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG840> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3DFykFBdJ8h9TX6tWvFFRhJp7> ;
+    skos:notation "840"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 840"@de,
+        "Includes DDC classes 840"@en ;
+    skos:prefLabel "Französische Literatur"@de,
+        "French literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG850> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3H9YQbbHMBBdM7DQy7kDb33xv> ;
+    skos:notation "850"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 850"@de,
+        "Includes DDC classes 850"@en ;
+    skos:prefLabel "Italienische, rumänische, rätoromanische Literatur"@de,
+        "Italian, Romanian, Rhaeto-Romanic literatures"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG860> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3bkcxtgtmKq8dwtH8gktxq4XF> ;
+    skos:notation "860"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 860"@de,
+        "Includes DDC classes 860"@en ;
+    skos:prefLabel "Spanische und portugiesische Liteatur"@de,
+        "Spanish and Portuguese literatures"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG870> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3YwCGPFvgG6CcVKvXycDrPHcF> ;
+    skos:notation "870"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 870"@de,
+        "Includes DDC classes 870"@en ;
+    skos:prefLabel "Lateinische Literatur"@de,
+        "Latin literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG880> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E43dJhgXyp4xMGyw9d3hJywJBP> ;
+    skos:notation "880"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 880"@de,
+        "Includes DDC classes 880"@en ;
+    skos:prefLabel "Griechische Literatur"@de,
+        "Greek literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG890> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3Mc7QvyQpr7m49WrvWTtFg97R> ;
+    skos:notation "890"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 890"@de,
+        "Includes DDC classes 890"@en ;
+    skos:prefLabel "Literatur in anderen Sprachen"@de,
+        "Other literatures"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG900> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E48wq7jdPxXjCKcWbGhyfThfCY> ;
+    skos:notation "900"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 900"@de,
+        "Includes DDC classes 900"@en ;
+    skos:prefLabel "Geschichte"@de,
+        "History"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG910> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3YxcggDV6j77RfJ6jJmhMkmdw> ;
+    skos:notation "910"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 910"@de,
+        "Includes DDC classes 910"@en ;
+    skos:prefLabel "Geografie, Reisen"@de,
+        "Geograpy and travel"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG914_3> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E34k7XwGr8KdK7GFwT9Tf8vkdJ>,
+        <https://id.oclc.org/worldcat/ddc/E3GRcpwm3JKjVYbQphQ8TPtVtg>,
+        <https://id.oclc.org/worldcat/ddc/E3f3P4VBgDqtD3PMHwD9HdJTvJ>,
+        <https://id.oclc.org/worldcat/ddc/E3f4yrhRB6PYvYYB8PbdxBCjQx>,
+        <https://id.oclc.org/worldcat/ddc/E3jK9rD98MYCPJBcpWQkYCtrY8>,
+        <https://id.oclc.org/worldcat/ddc/E44cKGggtPxXjxwBvvcPTddbrY> ;
+    skos:notation "914.3"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 914.3-914.35"@de,
+        "Includes DDC classes 914.3-914.35"@en ;
+    skos:prefLabel "Geografie, Reisen (Deutschland)"@de,
+        "Geography, travel (Germany)"@en ;
+    skos:scopeNote "Im Schweizer Buch (der Schweizerischen Nationalbibliografie) stattdessen: 914.94 Geografie, Reisen (Schweiz). In der Österreichischen Bibliografie stattdessen: 914.36 Geografie, Reisen (Österreich)"@de,
+        "The Swiss Book (Swiss National Bibliography) used instead: 914.94 Geography, travel (Switzerland). The Austrian National Bibliography used instead: 914.36 Geography, travel (Austria)"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG920> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3cYH9rjyMYTwT4tyFM74rCKY7> ;
+    skos:notation "920"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 920"@de,
+        "Includes DDC classes 920"@en ;
+    skos:prefLabel "Biografie, Genealogie, Heraldik"@de,
+        "Biography, genealogy, heraldry"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG930> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3hWQvvDPgJrYvTtf7gXTqpFfX> ;
+    skos:notation "930"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 930"@de,
+        "Includes DDC classes 930"@en ;
+    skos:prefLabel "Alte Geschichte, Archäologie"@de,
+        "History of the ancient world, archaeology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG940> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3t7YQpmfR844rRWb3JMm9bcgV> ;
+    skos:notation "940"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 940"@de,
+        "Includes DDC classes 940"@en ;
+    skos:prefLabel "Geschichte Europas"@de,
+        "History of Europe"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG943> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3DCwPCXDyJGmxG6m8cfdRP9bF>,
+        <https://id.oclc.org/worldcat/ddc/E3PjxWtkKt7j6pMBWdWG7MTwhx>,
+        <https://id.oclc.org/worldcat/ddc/E3X4QW3Ch8x88bcVFFy7kHY3WD>,
+        <https://id.oclc.org/worldcat/ddc/E3wqP67rHdttvWwWdT6TB8jgjm>,
+        <https://id.oclc.org/worldcat/ddc/E3yhTW4rB37kcvv7XVyGV39yKC>,
+        <https://id.oclc.org/worldcat/ddc/E48rj3cWgMvkpmCRCCbDxqY9J8> ;
+    skos:notation "943"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 943-943.5"@de,
+        "Includes DDC classes 943-943.5"@en ;
+    skos:prefLabel "Geschichte Deutschlands"@de,
+        "History of Germany"@en ;
+    skos:scopeNote "Im Schweizer Buch (der Schweizerischen Nationalbibliografie) stattdessen: 949.4 Geschichte der Schweiz. In der Österreichischen Bibliografie stattdessen: 943.6 Geschichte Österreichs"@de,
+        "The Swiss Book (Swiss National Bibliography) used instead: 949.4 History of Switzerland. The Austrian National Bibliography used instead: 943.6 History of Austria"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG950> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E46YX7TYkHkX4bWRJfhCR3rVFH> ;
+    skos:notation "950"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 950"@de,
+        "Includes DDC classes 950"@en ;
+    skos:prefLabel "Geschichte Asiens"@de,
+        "History of Asia"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG960> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3xY9CpPyBHjwGx8tt39cry4Yy> ;
+    skos:notation "960"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 960"@de,
+        "Includes DDC classes 960"@en ;
+    skos:prefLabel "Geschichte Afrikas"@de,
+        "History of Africa"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG970> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3343rhqDJBK38cGFQR3kFvpfK> ;
+    skos:notation "970"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 970"@de,
+        "Includes DDC classes 970"@en ;
+    skos:prefLabel "Geschichte Nordamerikas"@de,
+        "History of North America"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG980> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E34XV8cDCjH7qy4PVHDJjtg9RB> ;
+    skos:notation "980"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 980"@de,
+        "Includes DDC classes 980"@en ;
+    skos:prefLabel "Geschichte Südamerikas"@de,
+        "History of South America"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG990> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK900> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3X8hwfXrx4PvMM4MXc4FWdFvm> ;
+    skos:notation "990"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 990"@de,
+        "Includes DDC classes 990"@en ;
+    skos:prefLabel "Geschichte der übrigen Welt"@de,
+        "History of other regions"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG300> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E49XXXMBFvg8P6dHGvTvvtTDqc> ;
+    skos:notation "300"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 300"@de,
+        "Includes DDC classes 300"@en ;
+    skos:prefLabel "Sozialwissenschaften, Soziologie, Anthropologie "@de,
+        "Social sciences, sociology, anthropology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG360> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E44XQHfHWPbFMr4pbXGc36gMyb> ;
+    skos:notation "360"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 360"@de,
+        "Includes DDC classes 360"@en ;
+    skos:prefLabel "Soziale Probleme, Sozialdienste, Versicherungen"@de,
+        "Social problems , social services, insurance"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG520> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3rjtqtJwbWHQRDx4D7cT9KY4F> ;
+    skos:notation "520"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 520"@de,
+        "Includes DDC classes 520"@en ;
+    skos:prefLabel "Astronomie, Kartografie"@de,
+        "Astronomy, cartography"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG540> a skos:Concept ;
+    rdfs:seeAlso <https://d-nb.info/standards/classification/ddc-sc#SG570> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3cBk7rwVXqtrmbqJrdMdWrxxY> ;
+    skos:notation "540"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 540"@de,
+        "Includes DDC classes 540"@en ;
+    skos:prefLabel "Chemie"@de,
+        "Chemistry"@en ;
+    skos:scopeNote "Biochemie in 570"@de,
+        "Biochemistry in 570"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG570> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK500> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3k647fCwTWT89RfgG9XVhFKRK> ;
+    skos:notation "570"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 570"@de,
+        "Includes DDC classes 570"@en ;
+    skos:prefLabel "Biowissenschaften, Biologie"@de,
+        "Life sciences, biology"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG650> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E38VcvYhKg6CFx8WmvX4jv8JMx> ;
+    skos:notation "650"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 650"@de,
+        "Includes DDC classes 650"@en ;
+    skos:prefLabel "Management"@de,
+        "Management"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG740> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK700> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3kwbbjtMHdyVmQKYDDcRgC9hd> ;
+    skos:notation "740"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 740"@de,
+        "Includes DDC classes 740"@en ;
+    skos:prefLabel "Grafik, angewandte Kunst"@de,
+        "Graphic arts, decorative arts"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG630> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK600> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3CMjtyBFMPdrWcgHbbBTCVCWg> ;
+    skos:notation "630"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 630"@de,
+        "Includes DDC classes 630"@en ;
+    skos:prefLabel "Landwirtschaft, Veterinärmedizin"@de,
+        "Agriculture, veterinary medicine"@en .
+
+
+<https://d-nb.info/standards/classification/ddc-sc#SG891_8> a skos:Concept ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK800> ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3QTcpPmtc7byfBXwrmmgRhx3K>,
+        <https://id.oclc.org/worldcat/ddc/E3dgr8DmxPYp4qmyXDDJptXyjt> ;
+    skos:notation "891.8"^^dnbt:ddc-subject-category ;
+    skos:note "Enthält die DDC-Klassen 891.7-891.8"@de,
+        "Includes DDC classes 891.7-891.8"@en ;
+    skos:prefLabel "Slawische Literatur"@de,
+        "Slavic (Slavonic) literatures"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG_B> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:notation "B"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Belletristik"@de,
+        "Fiction"@en ;
+    skos:scopeNote "Wird nur als zusätzliche Sachgruppe zusätzlich zu den Hauptsachgruppen 800-891.8 vergeben"@de,
+        "Separate category that is only used in addition to main categories 800-891.8"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG_K> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:notation "K"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Kinder- und Jugendliteratur"@de,
+        "Juvenile literature"@en .
+
+<https://d-nb.info/standards/classification/ddc-sc#SG_S> a skos:Concept ;
+    skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
+    skos:notation "S"^^dnbt:ddc-subject-category ;
+    skos:prefLabel "Schulbücher"@de,
+        "School textbooks"@en .
