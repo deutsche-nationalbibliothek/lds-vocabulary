@@ -23,20 +23,25 @@
         
         <!-- Versioning information -->
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-30</dct:issued>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-05T16:00:00+02:00</dct:modified>
-        <dct:available rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-08-07</dct:available>
-        <owl:versionInfo>1.4.1</owl:versionInfo>
-        <owl:versionIRI rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code_20240807" />
-	<owl:priorVersion rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code_20210928" />
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-10T11:00:00+02:00</dct:modified>
+        <dct:available rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-08-10</dct:available>
+        <owl:versionInfo>1.4.2</owl:versionInfo>
+        <owl:versionIRI rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code_20260810" />
+	<owl:priorVersion rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code_20240807" />
 
         <!-- Rights information -->
-        <dct:rights>Copyright 2012-2024 Deutsche Nationalbibliothek</dct:rights>
+        <dct:rights>Copyright 2012-2026 Deutsche Nationalbibliothek</dct:rights>
         <cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
         <dct:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
 		<dct:creator rdf:resource="#alexanderHaffner" />
         <dct:publisher rdf:resource="http://ld.zdb-services.de/resource/organisations/DE-101" />
 		<adms:versionNotes xml:lang="en">
-Changes from 2021-09-29 to 2024-08-05
+Changes from 2024-08-06 to 2026-08-10
+
+- XE-NR: Changed German and English label to Naoero
+- XB-MM: Changed German and English label to Myanmar
+
+*Changes from 2021-09-29 to 2024-08-05
 
 Fix geonames.org IRIs
 
@@ -57,7 +62,7 @@ Changes from 2019-10-16 to 2021-09-28
 - XS: Changed English label to "Ancient Greece"
 - XC-AIDJ: Changed German label to "Französisches Afar- und Issa Territorium (-1977)", English label to "French Afars and Issas"
 
-*Changes from 2018-10-16 to 2019-10-15
+Changes from 2018-10-16 to 2019-10-15
 
 All d-nb.info URIs changed from http to https
 All wikipedia.org URI changed from http to https
@@ -1685,8 +1690,8 @@ ZZ: Changed German name to "Land unbekannt", Englischer name to "Country unknown
         <foaf:page rdf:resource="https://en.wikipedia.org/wiki/Sri_Lanka"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-MM">
-        <skos:prefLabel xml:lang="de">Birma</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Burma</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Myanmar</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Myanmar</skos:prefLabel>
         <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#"/>
         <skos:broader rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB"/>
         <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/a-br"/>
@@ -3561,8 +3566,8 @@ ZZ: Changed German name to "Land unbekannt", Englischer name to "Country unknown
         <foaf:page rdf:resource="https://en.wikipedia.org/wiki/New_Hebrides"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XE-NR">
-        <skos:prefLabel xml:lang="de">Nauru</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Nauru</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Naoero</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Naoero</skos:prefLabel>
         <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#"/>
         <skos:broader rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XE"/>
         <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/geographicAreas/ponu"/>
