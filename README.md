@@ -37,7 +37,7 @@ Das Vokabular „GND-Katalogisierungslevel“ (GND Description Level) bildet die
 Das Vokabular „DDC-Sachgruppen der Deutschen Nationalbibliothek“ (DDC Subject Categories of the German National Library) bildet die möglichen Werte für die Gliederung des Neuerscheinungsdienstes sowie aller Reihen der Deutschen Nationalbibliografie. Sie werden in RDF als skos:Concepts modelliert.
 
 # Kommunikation
-Über Issues und Pull Requests können gerne Fehler oder Verbesserungsvorschläge eingebracht werden. Weitere Fragen oder Anregungen können über die [Linked-Data-Service Mailingliste](mailto:lds@lists.dnb.de) mitgeteilt werden. Oder per Mail an [metadatendienste@dnb.de](mailto:metadatendienste@dnb.de).
+Über Issues und Pull Requests können gerne Fehler oder Verbesserungsvorschläge eingebracht werden. Weitere Fragen oder Anregungen können über die [Linked-Data-Service Mailingliste](mailto:dnb-linked-data-service@listserv.dfn.de) mitgeteilt werden. Oder per Mail an [metadatendienste@dnb.de](mailto:metadatendienste@dnb.de).
 
 # Lizenz
 
