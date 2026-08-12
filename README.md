@@ -34,7 +34,7 @@ Das Vokabular „GND-Koordinatentyp“ (GND Type of Coordinates) bildet die mög
 Das Vokabular „GND-Katalogisierungslevel“ (GND Description Level) bildet die möglichen Werte für das Katalogisierungslevel ab, das den Stand der redaktionellen Bearbeitung eines Datensatzes anzeigt. Sie werden in RDF als skos:Concepts modelliert.
 
 ### DDC-Sachgruppen der Deutschen Nationalbibliothek
-Das Vokabular „DDC-Sachgruppen der Deutschen Nationalbibliothek“ (DC Subject Categories of the German National Library) bildet die möglichen Werte für die Gliederung des Neuerscheinungsdienstes sowie einzelner Reihen der Deutschen Nationalbibliografie. Sie werden in RDF als skos:Concepts modelliert.
+Das Vokabular „DDC-Sachgruppen der Deutschen Nationalbibliothek“ (DDC Subject Categories of the German National Library) bildet die möglichen Werte für die Gliederung des Neuerscheinungsdienstes sowie aller Reihen der Deutschen Nationalbibliografie. Sie werden in RDF als skos:Concepts modelliert.
 
 # Kommunikation
 Über Issues und Pull Requests können gerne Fehler oder Verbesserungsvorschläge eingebracht werden. Weitere Fragen oder Anregungen können über die [Linked-Data-Service Mailingliste](mailto:lds@lists.dnb.de) mitgeteilt werden. Oder per Mail an [metadatendienste@dnb.de](mailto:metadatendienste@dnb.de).
