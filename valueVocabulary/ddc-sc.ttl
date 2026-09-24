@@ -413,7 +413,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         "Management in 650"@en .
 
 <https://d-nb.info/standards/classification/ddc-sc#SG333_7> a skos:Concept ;
-    skos:broader <https://d-nb.info/standards/classification/ddc-sc#SG300> ;
+    skos:broader <https://d-nb.info/standards/classification/ddc-sc#HK300> ;
     skos:inScheme <https://d-nb.info/standards/classification/ddc-sc#> ;
     skos:narrowMatch <https://id.oclc.org/worldcat/ddc/E3FFX4Yh88TmYW9bx6jfJVcjKc>,
         <https://id.oclc.org/worldcat/ddc/E3YRjtPDY9Mfp3DqRmbhKD6WgK>,
