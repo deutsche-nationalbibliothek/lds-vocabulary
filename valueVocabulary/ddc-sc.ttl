@@ -43,7 +43,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG070>,
         <https://d-nb.info/standards/classification/ddc-sc#SG080>,
         <https://d-nb.info/standards/classification/ddc-sc#SG090> ;
-    skos:notation "000"^^dnbt:ddc-subject-category ;
+    skos:notation "000" ;
     skos:prefLabel "Allgemeines, Informatik, Informationswissenschaft"@de,
         "Generalities, computers, information"@en .
 
@@ -52,7 +52,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
     skos:narrower <https://d-nb.info/standards/classification/ddc-sc#SG100>,
         <https://d-nb.info/standards/classification/ddc-sc#SG130>,
         <https://d-nb.info/standards/classification/ddc-sc#SG150> ;
-    skos:notation "100"^^dnbt:ddc-subject-category ;
+    skos:notation "100" ;
     skos:prefLabel "Philosophie und Psychologie"@de,
         "Philosophy and psychology"@en .
 
@@ -62,7 +62,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG220>,
         <https://d-nb.info/standards/classification/ddc-sc#SG230>,
         <https://d-nb.info/standards/classification/ddc-sc#SG290> ;
-    skos:notation "200"^^dnbt:ddc-subject-category ;
+    skos:notation "200" ;
     skos:prefLabel "Religion"@de,
         "Religion"@en .
 
@@ -78,7 +78,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG570>,
         <https://d-nb.info/standards/classification/ddc-sc#SG580>,
         <https://d-nb.info/standards/classification/ddc-sc#SG590> ;
-    skos:notation "500"^^dnbt:ddc-subject-category ;
+    skos:notation "500" ;
     skos:prefLabel "Naturwissenschaften und Mathematik"@de,
         "Natural sciences and mathematics"@en .
 
@@ -96,7 +96,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG370>,
         <https://d-nb.info/standards/classification/ddc-sc#SG380>,
         <https://d-nb.info/standards/classification/ddc-sc#SG390> ;
-    skos:notation "300"^^dnbt:ddc-subject-category ;
+    skos:notation "300" ;
     skos:prefLabel "Sozialwissenschaften"@de,
         "Social sciences"@en .
 
@@ -113,7 +113,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG480>,
         <https://d-nb.info/standards/classification/ddc-sc#SG490>,
         <https://d-nb.info/standards/classification/ddc-sc#SG491_8> ;
-    skos:notation "400"^^dnbt:ddc-subject-category ;
+    skos:notation "400" ;
     skos:prefLabel "Sprache"@de,
         "Language"@en .
 
@@ -130,7 +130,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG660>,
         <https://d-nb.info/standards/classification/ddc-sc#SG670>,
         <https://d-nb.info/standards/classification/ddc-sc#SG690> ;
-    skos:notation "600"^^dnbt:ddc-subject-category ;
+    skos:notation "600" ;
     skos:prefLabel "Technik, Medizin, angewandte Wissenschaften"@de,
         "Technology, medicine, applied sciences"@en .
 
@@ -148,7 +148,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG880>,
         <https://d-nb.info/standards/classification/ddc-sc#SG890>,
         <https://d-nb.info/standards/classification/ddc-sc#SG891_8> ;
-    skos:notation "800"^^dnbt:ddc-subject-category ;
+    skos:notation "800" ;
     skos:prefLabel "Literatur"@de,
         "Literature"@en .
 
@@ -166,7 +166,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG970>,
         <https://d-nb.info/standards/classification/ddc-sc#SG980>,
         <https://d-nb.info/standards/classification/ddc-sc#SG990> ;
-    skos:notation "900"^^dnbt:ddc-subject-category ;
+    skos:notation "900" ;
     skos:prefLabel "Geschichte und Geografie"@de,
         "History and geography"@en .
 
@@ -187,7 +187,7 @@ Nationalbibliografie, Series A, B, C, H, and O, and the New Release Service)"""@
         <https://d-nb.info/standards/classification/ddc-sc#SG792>,
         <https://d-nb.info/standards/classification/ddc-sc#SG793>,
         <https://d-nb.info/standards/classification/ddc-sc#SG796> ;
-    skos:notation "700"^^dnbt:ddc-subject-category ;
+    skos:notation "700" ;
     skos:prefLabel "Künste und Unterhaltung"@de,
         "Arts and recreation"@en .
 
