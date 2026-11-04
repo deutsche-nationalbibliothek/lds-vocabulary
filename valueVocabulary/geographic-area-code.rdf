@@ -4089,7 +4089,7 @@ ZZ: Changed German name to "Land unbekannt", Englischer name to "Country unknown
         <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XX">
-        <skos:prefLabel xml:lang="de">Arabische Staaten, Araber</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Arabische Staaten, Araber (Repräsentanten des arabischen Sprach- und Kulturkreises, der nicht an einen bestimmten Staat gebunden ist)</skos:prefLabel>
         <skos:prefLabel xml:lang="en">Arab Countries</skos:prefLabel>
         <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#"/>
         <rdfs:seeAlso rdf:resource="https://d-nb.info/gnd/4068789-2"/>
@@ -4097,8 +4097,8 @@ ZZ: Changed German name to "Land unbekannt", Englischer name to "Country unknown
         <foaf:page rdf:resource="https://en.wikipedia.org/wiki/Arab_world"/>
     </skos:Concept>
     <skos:Concept rdf:about="https://d-nb.info/standards/vocab/gnd/geographic-area-code#XY">
-        <skos:prefLabel xml:lang="de">Juden</skos:prefLabel>
-        <skos:prefLabel xml:lang="en">Jews</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Jüdischer Kulturkreis (Repräsentanten des jüdischen Kulturkreises, der nicht an den Staat Israel gebunden ist)</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Jewish Cultural Circle</skos:prefLabel>
         <skos:inScheme rdf:resource="https://d-nb.info/standards/vocab/gnd/geographic-area-code#"/>
         <rdfs:seeAlso rdf:resource="https://d-nb.info/gnd/4028808-0"/>
         <foaf:page rdf:resource="https://de.wikipedia.org/wiki/Juden"/>
